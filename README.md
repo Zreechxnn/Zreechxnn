@@ -1,4 +1,4 @@
-# Hey, I'm rechan dinata! 😎
+# Hey, I'm zreechxnn
 
 Welcome to my corner of GitHub! I'm zreechxnn, a programmer who treats coding like playing with Lego blocks—assembling, tweaking, and occasionally vacuuming up those pesky bugs. If I'm not in front of my computer, I’m probably hunting for coffee or reveling in the beauty of algebra.
 
