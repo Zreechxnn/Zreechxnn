@@ -1,4 +1,4 @@
-# <span style="color: #3498db;">Hey, I'm zreechxnn!</span> 🎉
+# <span style="color: #3498db;">Hey,I'm zreechxnn!</span> 🎉
 
 Welcome to my corner of GitHub! I'm <strong>zreechxnn</strong>, a programmer who treats coding like playing with Lego blocks—assembling, tweaking, and occasionally vacuuming up those pesky bugs. If I'm not in front of my computer, I’m probably hunting for coffee ☕ or reveling in the beauty of algebra. 📐
 
