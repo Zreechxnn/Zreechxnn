@@ -1,8 +1,6 @@
 # <p align="center"><img width="80%" alt="Hello, I'm Rechan I like a code!" src="text.png" /></a></p>
 Welcome to my corner of GitHub! I'm <strong>rechan dinata</strong>, a programmer who treats coding like playing with Lego blocks—assembling, tweaking, and occasionally vacuuming up those pesky bugs. If I'm not in front of my computer, I’m probably hunting for coffee ☕ or reveling in the beauty of algebra. 📐
 
-## <span style="color: #2ecc71;">🛠️ My Skills</span> 🚀
-
 <h2>:bulb: Languages & Frameworks I code in</h2>
 <code><img title="JavaScript" alt="javascript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></code>
 <code><img title="CSS 3" alt="css 3" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></code>
