@@ -1,4 +1,4 @@
-# <p align="center"><a href="https://Zreechxnn.github.io"><img width="80%" alt="Hello, I'm Rechan. I like a code!"/></a></p>
+# <p align="center"><a href="https://Zreechxnn.github.io"><img width="80%" alt="Hello, I'm Rechan I like a code!" src="text.png" /></a></p>
 
 Welcome to my corner of GitHub! I'm <strong>rechan dinata</strong>, a programmer who treats coding like playing with Lego blocks—assembling, tweaking, and occasionally vacuuming up those pesky bugs. If I'm not in front of my computer, I’m probably hunting for coffee ☕ or reveling in the beauty of algebra. 📐
 
