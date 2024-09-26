@@ -9,6 +9,8 @@ Welcome to my corner of GitHub! I'm <strong>rechan dinata</strong>, a programmer
   - **Laravel:** Master of creating web apps that look like magic! With Laravel, I can make CRUD operations cooler than extra-topping pizza. 🍕✨
   - **SDL2:** Building engaging projects, though you might not find me deep in game development—my focus is on exploring new tech and solutions. 🎮🔍
   - **QSack:** Still in the “wow, this is cool!” and “what else can I do with this?” phase—exploring the QSack universe like a digital detective! 🕵️‍♂️🌟
+ 
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
 
 ## <span style="color: #e67e22;">🌱 Currently Learning</span> 📚
 
@@ -26,6 +28,5 @@ Welcome to my corner of GitHub! I'm <strong>rechan dinata</strong>, a programmer
 - **LinkedIn:** [rechan Dinata](https://www.linkedin.com/in/rechan-dinata-a80552278/) – Let’s connect! We can swap knowledge, memes, or coffee recipes! 🌐
 - **Whatsapp:** [@ㅤㅤㅤㅤㅤㅤecan](https://wa.me/62895422689930) – Follow me for random updates, amusing code quotes, and maybe a few programming jokes! 🐦
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
 
 Thanks for stopping by my profile! I hope your day is as bright as my computer screen and as sweet as a cup of coffee! 🚀💻
