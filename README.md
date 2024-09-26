@@ -3,10 +3,14 @@ Welcome to my corner of GitHub! I'm <strong>rechan dinata</strong>, a programmer
 
 ## <span style="color: #2ecc71;">🛠️ My Skills</span> 🚀
 
-- **Frameworks & Tools:**
-  - **Laravel:** Master of creating web apps that look like magic! With Laravel, I can make CRUD operations cooler than extra-topping pizza. 🍕✨
-  - **SDL2:** Building engaging projects, though you might not find me deep in game development—my focus is on exploring new tech and solutions. 🎮🔍
-  - **QSack:** Still in the “wow, this is cool!” and “what else can I do with this?” phase—exploring the QSack universe like a digital detective! 🕵️‍♂️🌟
+<h2>:bulb: Languages & Frameworks I code in</h2>
+<code><img title="JavaScript" alt="javascript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></code>
+<code><img title="CSS 3" alt="css 3" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></code>
+<code><img title="C" alt="C" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /></code>
+<code><img title="ReactJS" alt="react js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></code>
+<code><img title="NodeJS" alt="node js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></code>
+<code> <img title="Next.js" alt="next.js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /></code>
+</br></br>
  
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
 
