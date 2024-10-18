@@ -1,31 +1,47 @@
-# <p align="center"><img width="80%" alt="Hello, I'm Rechan I like a code!" src="text.png" /></a></p>
-Welcome to my corner of GitHub! I'm <strong>rechan dinata</strong>, a programmer who treats coding like playing with Lego blocks—assembling, tweaking, and occasionally vacuuming up those pesky bugs. If I'm not in front of my computer, I’m probably hunting for coffee ☕ or reveling in the beauty of algebra. 📐
+<p align="center">
+  <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
+</p>
 
-<h2>:bulb: Languages & Frameworks I code in</h2>
-<code><img title="JavaScript" alt="javascript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></code>
-<code><img title="CSS 3" alt="css 3" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></code>
-<code><img title="C" alt="C" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /></code>
-<code><img title="NodeJS" alt="node js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></code>
-<code> <img title="Next.js" alt="next.js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /></code>
-</br></br>
- 
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
+# Welcome to My GitHub Corner! 
 
-## <span style="color: #e67e22;">🌱 Currently Learning</span> 📚
+Hey there, I'm **Rechan Dinata**, a passionate programmer who enjoys assembling code like Lego blocks—tweaking pieces here and there, and of course, dealing with those inevitable bugs! 🐛 If you don't see me in front of a screen, chances are I'm either hunting for some good coffee ☕ or deep in thought about the wonders of algebra. 📐
 
-- **Cryptography:** Turning messages into secret codes like a character from a spy thriller, but without the real-life drama. 🔐🕵️‍♂️
-- **IoT (Internet of Things):** Diving into the world of smart devices and interconnected systems, where innovation meets everyday life. 🌐🔧
+---
 
-## <span style="color: #e74c3c;">🤔 Fun Facts</span> 😄
+## :bulb: Languages & Frameworks I Use
 
-- **Naps:** I usually avoid napping due to the bitter tongue and dizzy head experience—apparently, that’s just how naps work. 😴❌
-- **Hobbies:** Diving into graphics and solving algebra puzzles while chuckling to myself. Solving problems is my jam—unless the problems are too stubborn! 📈🎨
+<code><img title="JavaScript" alt="JavaScript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></code>
+<code><img title="CSS 3" alt="CSS 3" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"></code>
+<code><img title="C" alt="C" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"></code>
+<code><img title="Node.js" alt="Node.js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></code>
+<code><img title="Next.js" alt="Next.js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"></code>
 
-## <span style="color: #9b59b6;">📫 Get in Touch</span> 💬
+---
 
-- **Email:** [hoshikochan93@gmail.com](mailto:hoshikochan93@gmail.com) – Drop me an email if you have questions or just want to share a funny coding meme. 📬
-- **LinkedIn:** [rechan Dinata](https://www.linkedin.com/in/rechan-dinata-a80552278/) – Let’s connect! We can swap knowledge, memes, or coffee recipes! 🌐
-- **Whatsapp:** [@ㅤㅤㅤㅤㅤㅤecan](https://wa.me/62895422689930) – Follow me for random updates, amusing code quotes, and maybe a few programming jokes! 🐦
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
 
+---
 
-Thanks for stopping by my profile! I hope your day is as bright as my computer screen and as sweet as a cup of coffee! 🚀💻
+## 🌱 What I'm Learning 📚
+
+- **Cryptography:** Turning everyday messages into secret codes, like a spy without the drama. 🔐🕵️‍♂️
+- **IoT (Internet of Things):** Exploring smart devices and how they change the way we live. 🌐🤖
+
+---
+
+## 🤔 Fun Facts About Me
+
+- **Naps?** No thanks. Napping leaves me with a bitter taste and a dizzy head—guess it's not for everyone! 😴❌
+- **Hobbies:** Solving algebra puzzles and playing around with graphics—problem-solving is my jam, but sometimes the problems are just too stubborn! 📈🎨
+
+---
+
+## 📫 Let's Connect!
+
+- **Email:** [hoshikochan93@gmail.com](mailto:hoshikochan93@gmail.com) — Drop me a line, whether it's for questions or to share a coding meme! 📬
+- **LinkedIn:** [Rechan Dinata](https://www.linkedin.com/in/rechan-dinata-a80552278/) — Let's connect and swap knowledge, coding tips, or even coffee recipes! ☕
+- **WhatsApp:** [@ecan](https://wa.me/62895422689930) — Follow me for coding updates, funny quotes, and the occasional programming joke! 🐦
+
+---
+
+Thanks for stopping by! Hope your day is as bright as my screen and as sweet as a cup of coffee! 🚀💻
