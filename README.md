@@ -19,6 +19,7 @@ Here are some of the languages and technologies I work with:
 <code><img title="Next.js" alt="Next.js" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"></code>
 <code><img title="Next.js" alt="git" width="30px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"></code>
 <code><img title="Next.js" alt="git" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"></code>
+<code><img title="Next.js" alt="git" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"></code>
 
 ---
 
