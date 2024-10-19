@@ -24,6 +24,9 @@ Here are some of the languages and technologies I work with:
 ---
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Zreechxnne&theme=github_dark)
+![](https://cr-skills-chart-widget.azurewebsites.net/api/api?Zreechxnn=theabbie)
 
 ---
 
