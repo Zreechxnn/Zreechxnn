@@ -2,7 +2,9 @@
   <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
 </p>
 
-<center># Welcome to My GitHub</center>
+<center>
+  # Welcome to My GitHub
+</center>
 
 Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building robust applications and solving complex problems. I view coding as a craft, with each line of code contributing to a greater whole—like assembling intricate pieces into a larger solution. When not coding, you'll find me exploring the beauty of algebra or enjoying a good cup of coffee. ☕️
 
