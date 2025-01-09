@@ -15,27 +15,30 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Generate the Top Languages stats
       - name: Generate Top Languages Stats
         run: |
           curl "https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula" -o dist/top-langs.svg
 
+      # Generate the Profile Summary Card
       - name: Generate Profile Summary Card
         run: |
           curl "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark" -o dist/profile-details.svg
 
-      - name: Add Animation to SVGs
-        run: |
-          sed -i 's/<svg /<svg xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" /' dist/top-langs.svg
-          sed -i 's/<\/svg>/<animateTransform attributeName="transform" type="translate" from="0 0" to="10 0" dur="2s" repeatCount="indefinite" \/><\/svg>/' dist/top-langs.svg
-          sed -i 's/<svg /<svg xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" /' dist/profile-details.svg
-          sed -i 's/<\/svg>/<animate attributeName="opacity" from="1" to="0.5" dur="1s" repeatCount="indefinite" \/><\/svg>/' dist/profile-details.svg
+      # Generate the Snake Animation
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2
+        with:
+          github_user_name: Zreechxnn
+          outputs: dist/snake.svg
 
+      # Commit and push changes to the repository
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/top-langs.svg dist/profile-details.svg
-          git commit -m "chore: update stats with animation" || echo "No changes to commit"
+          git add dist/top-langs.svg dist/profile-details.svg dist/snake.svg
+          git commit -m "chore: update stats and snake animation" || echo "No changes to commit"
           git push
