@@ -1,7 +1,9 @@
 <p align="center">
   <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
 </p>
+
 ---
+
 <p align="center">
   Welcome to My GitHub
 </p>
