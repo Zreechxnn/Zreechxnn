@@ -44,7 +44,6 @@ Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building r
 
 ### Top Languages
 ![Top Languages](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/top-langs.svg)
-
 ### Profile Details
 ![Profile Details](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/profile-details.svg)
 
