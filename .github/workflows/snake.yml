@@ -3,7 +3,7 @@ name: Generate Snake Animation
 on:
   push:
     branches:
-      - main
+      - main  # Trigger saat ada perubahan di branch utama
   schedule:
     - cron: "0 20 * * *"  # Jalankan setiap hari pukul 20:00 UTC
 
@@ -18,7 +18,7 @@ jobs:
         uses: Platane/snk@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          output: github-contribution-grid-snake.svg  # Simpan di root branch main
+          output: github-contribution-grid-snake.svg  # Simpan di branch 'main'
 
       - name: Commit and Push Snake Animation
         run: |
