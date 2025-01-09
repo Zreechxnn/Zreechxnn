@@ -46,6 +46,8 @@ Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building r
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark)
 
 --
+![github contribution grid snake animation](https://raw.githubusercontent.com/Zreechxnn/main/github-contribution-grid-snake.svg)
+
 
 ## :seedling: Currently Exploring
 
