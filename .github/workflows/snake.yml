@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 20 * * *" # Jalankan setiap hari pukul 20:00 UTC
+    - cron: "0 20 * * *"
 
 jobs:
   generate-snake:
@@ -15,12 +15,14 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Snake Animation
-        uses: Platane/snk@v3  # Pastikan menggunakan v3
+        uses: Platane/snk@v3
         with:
-          github_user_name: Zreechxnn  # Ganti dengan username GitHub Anda
+          github_user_name: Zreechxnn
           outputs: dist/snake.svg
 
       - name: Push Snake Animation to Repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
