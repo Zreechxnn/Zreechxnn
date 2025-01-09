@@ -1,42 +1,49 @@
 name: Update Stats
 
+# Trigger the workflow on 'push' to 'main' branch and a daily schedule at 20:00 UTC
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: "0 20 * * *" # Menjalankan setiap hari pukul 20:00 UTC
+    - cron: "0 20 * * *"  # Runs every day at 20:00 UTC
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository to access the files
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js (optional, for generating charts with libraries)
+      # Step 2: Set up Node.js (optional) for generating charts with libraries like chart.js
+      - name: Set up Node.js (optional)
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Pastikan versi Node.js sesuai dengan kebutuhan
+          node-version: '16' # Ensure the Node.js version fits the requirements
 
+      # Step 3: Generate Top Languages Stats
       - name: Generate Top Languages Stats
         run: |
           curl "https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula" -o dist/top-langs.svg
-        continue-on-error: true # Jika gagal, lanjutkan ke langkah berikutnya
+        continue-on-error: true  # Proceed even if this step fails
 
+      # Step 4: Generate Profile Summary Card
       - name: Generate Profile Summary Card
         run: |
           curl "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark" -o dist/profile-details.svg
-        continue-on-error: true # Jika gagal, lanjutkan ke langkah berikutnya
+        continue-on-error: true  # Proceed even if this step fails
 
+      # Step 5: Check if there are any changes in the generated SVG files
       - name: Check if Changes Exist
         id: changes
         run: |
           git diff --exit-code dist/top-langs.svg dist/profile-details.svg || echo "Changes detected"
 
+      # Step 6: Commit and push changes if any new updates are detected
       - name: Commit and Push Changes
-        if: steps.changes.outputs.exitcode == '1' # Pastikan hanya melakukan commit jika ada perubahan
+        if: steps.changes.outputs.exitcode == '1'  # Only commit if there are changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -46,6 +53,7 @@ jobs:
           git commit -m "chore: update stats" || echo "No changes to commit"
           git push
 
+      # Step 7: Notify on failure in the process (optional)
       - name: Notify on Failure (optional)
-        if: failure() # Kirim pemberitahuan jika ada kesalahan dalam proses
+        if: failure()  # Send a notification if there was an error
         run: echo "There was an error generating or committing the stats!"
