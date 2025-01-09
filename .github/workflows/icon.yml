@@ -70,3 +70,39 @@ css:
         flex-wrap: "wrap"
         gap: "20px"
         justify-content: "center"
+        position: "relative"
+        top: "0"
+        left: "0"
+        transition: "top 0.3s ease, left 0.3s ease, transform 0.3s ease"
+    - selector: ".move-up"
+      properties:
+        top: "-20px"
+    - selector: ".move-down"
+      properties:
+        top: "20px"
+    - selector: ".move-left"
+      properties:
+        left: "-20px"
+    - selector: ".move-right"
+      properties:
+        left: "20px"
+document.addEventListener("keydown", function(event) {
+  const tools = document.querySelector('.tools');
+  
+  if (event.key === "ArrowUp") {
+    tools.classList.add('move-up');
+    tools.classList.remove('move-down', 'move-left', 'move-right');
+  }
+  if (event.key === "ArrowDown") {
+    tools.classList.add('move-down');
+    tools.classList.remove('move-up', 'move-left', 'move-right');
+  }
+  if (event.key === "ArrowLeft") {
+    tools.classList.add('move-left');
+    tools.classList.remove('move-up', 'move-down', 'move-right');
+  }
+  if (event.key === "ArrowRight") {
+    tools.classList.add('move-right');
+    tools.classList.remove('move-up', 'move-down', 'move-left');
+  }
+});
