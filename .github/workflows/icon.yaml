@@ -1,0 +1,56 @@
+section:
+  title: "Languages and Tools"
+  icon:
+    src: "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif"
+    width: 25
+  items:
+    - name: "Arduino"
+      url: "https://www.arduino.cc/"
+      logo: "https://cdn.worldvectorlogo.com/logos/arduino-1.svg"
+      width: 40
+      height: 40
+    - name: "C"
+      url: "https://www.cprogramming.com/"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+      width: 40
+      height: 40
+    - name: "C++"
+      url: "https://www.w3schools.com/cpp/"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+      width: 40
+      height: 40
+    - name: "Git"
+      url: "https://git-scm.com/"
+      logo: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+      width: 40
+      height: 40
+    - name: "Linux"
+      url: "https://www.linux.org/"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+      width: 40
+      height: 40
+    - name: "MySQL"
+      url: "https://www.mysql.com/"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+      width: 40
+      height: 40
+    - name: "Python"
+      url: "https://www.python.org"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+      width: 40
+      height: 40
+    - name: "Ruby"
+      url: "https://www.ruby-lang.org/en/"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
+      width: 40
+      height: 40
+
+css:
+  styles:
+    - selector: ".tools img"
+      properties:
+        transition: "transform 0.3s ease, box-shadow 0.3s ease"
+    - selector: ".tools img:hover"
+      properties:
+        transform: "scale(1.2)"
+        box-shadow: "0 4px 20px rgba(0, 0, 0, 0.2)"
