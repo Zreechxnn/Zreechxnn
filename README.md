@@ -1,7 +1,7 @@
 <p align="center">
   <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
 </p>
-
+---
 <p align="center">
   Welcome to My GitHub
 </p>
@@ -48,7 +48,7 @@ Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building r
 ![GitHub Contribution Snake](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/snake.svg)
 
 
---
+---
 
 
 ## :seedling: Currently Exploring
