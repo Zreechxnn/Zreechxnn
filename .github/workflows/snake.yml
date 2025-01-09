@@ -19,7 +19,10 @@ jobs:
         with:
           github_user_name: Zreechxnn
           outputs: dist/snake.svg
-
+    
+          color_snake: "#00FFFF"   
+          color_dots: "#FFFFFF, #000000, #FF0000, #FFFF00" 
+          
       - name: Push Snake Animation to Repository
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
