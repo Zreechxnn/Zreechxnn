@@ -2,14 +2,6 @@
   <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
 </p>
 
-<style>
-  @keyframes slide {
-    0% { transform: translateX(100%); }
-    50% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-  }
-</style>
-
 <p align="center">
   Welcome to My GitHub
 </p>
