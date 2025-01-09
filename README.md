@@ -44,8 +44,6 @@ Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building r
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark)
-![github contribution grid snake animation](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![github contribution grid snake animation](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 --
 
