@@ -49,8 +49,24 @@ css:
   styles:
     - selector: ".tools img"
       properties:
-        transition: "transform 0.3s ease, box-shadow 0.3s ease"
+        border-radius: "10px"
+        transition: "transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease, transform 0.3s ease-in-out"
+        filter: "grayscale(100%)"
+        cursor: "pointer"
     - selector: ".tools img:hover"
       properties:
-        transform: "scale(1.2)"
+        transform: "scale(1.3) rotate(15deg)"
+        box-shadow: "0 10px 40px rgba(0, 0, 0, 0.3)"
+        filter: "grayscale(0%) sepia(0.5)"
+        opacity: "0.8"
+    - selector: ".tools img:active"
+      properties:
+        transform: "scale(1.2) rotate(5deg)"
         box-shadow: "0 4px 20px rgba(0, 0, 0, 0.2)"
+        opacity: "1"
+    - selector: ".tools"
+      properties:
+        display: "flex"
+        flex-wrap: "wrap"
+        gap: "20px"
+        justify-content: "center"
