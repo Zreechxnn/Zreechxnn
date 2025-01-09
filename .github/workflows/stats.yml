@@ -23,16 +23,24 @@ jobs:
         with:
           node-version: '16' # Ensure the Node.js version fits the requirements
 
-      # Step 3: Generate Top Languages Stats
-      - name: Generate Top Languages Stats
+      # Step 3: Generate Top Languages Stats with a Gradient and 3D Effect
+      - name: Generate Top Languages Stats with 3D and Gradient
         run: |
-          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula" -o dist/top-langs.svg
+          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula&custom_title=Top+Languages" -o dist/top-langs.svg
+          # After downloading, modify the SVG to add gradient and 3D effects
+          sed -i 's/<svg /<svg style="filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));" /' dist/top-langs.svg
+          sed -i 's/<rect /<rect fill="url(#gradient)" /' dist/top-langs.svg
+          echo '<defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#ff7e5f;stop-opacity:1" /><stop offset="100%" style="stop-color:#feb47b;stop-opacity:1" /></linearGradient></defs>' >> dist/top-langs.svg
         continue-on-error: true  # Proceed even if this step fails
 
-      # Step 4: Generate Profile Summary Card
-      - name: Generate Profile Summary Card
+      # Step 4: Generate Profile Summary Card with a 3D and Gradient Effect
+      - name: Generate Profile Summary Card with 3D and Gradient
         run: |
           curl "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark" -o dist/profile-details.svg
+          # Modify SVG for 3D effect and gradient
+          sed -i 's/<svg /<svg style="filter: drop-shadow(3px 3px 10px rgba(0,0,0,0.7));" /' dist/profile-details.svg
+          sed -i 's/<rect /<rect fill="url(#gradient)" /' dist/profile-details.svg
+          echo '<defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6a11cb;stop-opacity:1" /><stop offset="100%" style="stop-color:#2575fc;stop-opacity:1" /></linearGradient></defs>' >> dist/profile-details.svg
         continue-on-error: true  # Proceed even if this step fails
 
       # Step 5: Check if there are any changes in the generated SVG files
