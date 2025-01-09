@@ -2,14 +2,6 @@
   <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
 </p>
 
-<p align="center">
-  <div style="width: 100%; overflow: hidden; white-space: nowrap;">
-    <span style="display: inline-block; animation: slide 5s linear infinite;">
-      <img width="80%" alt="Hello, I'm Rechan! I love to code!" src="text.png" />
-    </span>
-  </div>
-</p>
-
 <style>
   @keyframes slide {
     0% { transform: translateX(100%); }
