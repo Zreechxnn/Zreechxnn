@@ -8,7 +8,10 @@
 
 Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building robust applications and solving complex problems. I view coding as a craft, with each line of code contributing to a greater whole—like assembling intricate pieces into a larger solution. When not coding, you'll find me exploring the beauty of algebra or enjoying a good cup of coffee. ☕️
 
----
+<p align="center">
+  <img width="80%" alt="Rainbow Line" src="dist/rainbowline.svg" />
+</p>
+
 <h2><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Languages and Tools:</h2>
 
 <p class="tools" align="left">
