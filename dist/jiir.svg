@@ -1,0 +1,138 @@
+<svg
+  width="100%"
+  height="auto"
+  viewBox="0 0 300 165"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="descId"
+>
+  <title id="titleId">Most Used Languages</title>
+  <desc id="descId">Visualization of language usage</desc>
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #ff6e96;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+    @supports(-moz-appearance: auto) {
+      .header {
+        font-size: 15.5px;
+      }
+    }
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+      fill: #f8f8f2;
+    }
+    .lang-name {
+      font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #f8f8f2;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    #rect-mask rect {
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    .lang-progress {
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
+    }
+    circle {
+      transform-origin: center;
+      animation: scaleInAnimation 0.6s ease-in-out forwards;
+    }
+
+    /* Animations */
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    @keyframes scaleInAnimation {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  </style>
+
+  <rect
+    x="0.5"
+    y="0.5"
+    rx="10"
+    width="299"
+    height="99%"
+    fill="url(#bgGradient)"
+    stroke="#e4e2e2"
+  />
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="300" y2="165">
+      <stop offset="0%" stop-color="#282a36" />
+      <stop offset="100%" stop-color="#44475a" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">Most Used Languages</text>
+  </g>
+
+  <g transform="translate(25, 65)">
+    <rect
+      x="0"
+      y="0"
+      width="198.37"
+      height="10"
+      fill="url(#cppGradient)"
+      rx="5"
+    />
+    <rect x="198.37" y="0" width="19.79" height="10" fill="#f1e05a" rx="5" />
+    <rect x="218.16" y="0" width="18.29" height="10" fill="#663399" rx="5" />
+    <rect x="236.45" y="0" width="18.34" height="10" fill="#3572A5" rx="5" />
+    <rect x="254.79" y="0" width="15.21" height="10" fill="#555555" rx="5" />
+
+    <defs>
+      <linearGradient id="cppGradient" x1="0" y1="0" x2="198.37" y2="0">
+        <stop offset="0%" stop-color="#f34b7d" />
+        <stop offset="100%" stop-color="#e91e63" />
+      </linearGradient>
+    </defs>
+  </g>
+
+  <g transform="translate(25, 85)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="10" r="5" fill="#f34b7d" />
+      <text x="15" y="14" class="lang-name">C++ 79.35%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(0, 25)">
+      <circle cx="5" cy="10" r="5" fill="#f1e05a" />
+      <text x="15" y="14" class="lang-name">JavaScript 7.92%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 750ms" transform="translate(0, 50)">
+      <circle cx="5" cy="10" r="5" fill="#663399" />
+      <text x="15" y="14" class="lang-name">CSS 7.31%</text>
+    </g>
+  </g>
+</svg>
