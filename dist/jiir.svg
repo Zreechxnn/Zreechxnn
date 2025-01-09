@@ -27,12 +27,7 @@
       }
     }
     .lang-progress {
-      animation: slideIn 2s ease-in-out forwards, bendEffect 2s ease-in-out infinite;
-      stroke-linecap: round;
-      stroke-width: 5;
-      fill: none;
-      stroke-dasharray: 200;
-      stroke-dashoffset: 200;
+      animation: slideIn 1s ease-in-out forwards;
     }
     @keyframes slideIn {
       from {
@@ -40,20 +35,6 @@
       }
       to {
         width: 100%;
-      }
-    }
-    @keyframes bendEffect {
-      0% {
-        stroke-dashoffset: 200;
-        transform: translateX(0) translateY(0);
-      }
-      50% {
-        stroke-dashoffset: 100;
-        transform: translateX(10px) translateY(5px);
-      }
-      100% {
-        stroke-dashoffset: 0;
-        transform: translateX(0) translateY(0);
       }
     }
     circle {
@@ -97,40 +78,55 @@
     <text x="0" y="0" class="header">Most Used Languages</text>
   </g>
 
-  <!-- Progress Bars with Bending Effect -->
+  <!-- Progress Bars -->
   <g transform="translate(25, 70)">
-    <path
-      d="M0,0 C50,10, 100,10, 150,0"
-      fill="transparent"
-      stroke="#f34b7d"
+    <rect
+      x="0"
+      y="0"
+      width="198.37"
+      height="10"
+      fill="#f34b7d"
+      rx="5"
       class="lang-progress"
       style="animation-delay: 0.2s"
     />
-    <path
-      d="M0,0 C50,10, 100,10, 150,0"
-      fill="transparent"
-      stroke="#f1e05a"
+    <rect
+      x="198.37"
+      y="0"
+      width="19.79"
+      height="10"
+      fill="#f1e05a"
+      rx="5"
       class="lang-progress"
       style="animation-delay: 0.4s"
     />
-    <path
-      d="M0,0 C50,10, 100,10, 150,0"
-      fill="transparent"
-      stroke="#663399"
+    <rect
+      x="218.16"
+      y="0"
+      width="18.29"
+      height="10"
+      fill="#663399"
+      rx="5"
       class="lang-progress"
       style="animation-delay: 0.6s"
     />
-    <path
-      d="M0,0 C50,10, 100,10, 150,0"
-      fill="transparent"
-      stroke="#3572A5"
+    <rect
+      x="236.45"
+      y="0"
+      width="18.34"
+      height="10"
+      fill="#3572A5"
+      rx="5"
       class="lang-progress"
       style="animation-delay: 0.8s"
     />
-    <path
-      d="M0,0 C50,10, 100,10, 150,0"
-      fill="transparent"
-      stroke="#555555"
+    <rect
+      x="254.79"
+      y="0"
+      width="15.21"
+      height="10"
+      fill="#555555"
+      rx="5"
       class="lang-progress"
       style="animation-delay: 1s"
     />
