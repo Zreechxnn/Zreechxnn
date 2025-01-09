@@ -1,5 +1,5 @@
 <svg
-  width="300"
+  width="400"
   height="165"
   viewBox="0 0 300 165"
   fill="none"
@@ -27,12 +27,10 @@
       }
     }
     .lang-progress {
-      animation: slideIn 2s ease-in-out forwards, bendEffect 2s ease-in-out infinite;
+      animation: slideIn 2s ease-in-out forwards;
       stroke-linecap: round;
       stroke-width: 5;
       fill: none;
-      stroke-dasharray: 200;
-      stroke-dashoffset: 200;
     }
     @keyframes slideIn {
       from {
@@ -40,20 +38,6 @@
       }
       to {
         width: 100%;
-      }
-    }
-    @keyframes bendEffect {
-      0% {
-        stroke-dashoffset: 200;
-        transform: translateX(0) translateY(0);
-      }
-      50% {
-        stroke-dashoffset: 100;
-        transform: translateX(10px) translateY(5px);
-      }
-      100% {
-        stroke-dashoffset: 0;
-        transform: translateX(0) translateY(0);
       }
     }
     circle {
@@ -97,7 +81,7 @@
     <text x="0" y="0" class="header">Most Used Languages</text>
   </g>
 
-  <!-- Progress Bars -->
+  <!-- Progress Bars with Real Data -->
   <g transform="translate(25, 70)">
     <rect
       x="0"
