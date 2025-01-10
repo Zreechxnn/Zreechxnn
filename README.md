@@ -102,13 +102,4 @@
 
 ---
 
-<details>
-  <summary>Streak Stats</summary>
-  
-  ![Streak Stats]([https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast](https://streak-stats.unofficialmirror.com/?user=Zreechxnn&theme=highcontrast))
-  
-</details>
-
----
-
 Thank you for visiting my GitHub profile! Feel free to connect with me for collaboration opportunities, insights into programming, or just a casual chat about tech and development. 🚀
