@@ -1,67 +1,50 @@
-# Trigger the workflow on 'push' to 'main' branch and a daily schedule at 20:00 UTC
+name: GitHub Stats Card
+
 on:
+  schedule:
+    # Refresh setiap hari
+    - cron: '0 0 * * *'
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 20 * * *"  # Runs every day at 20:00 UTC
+  workflow_dispatch:
 
 jobs:
-  update-stats:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository to access the files
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js (optional) for generating charts with libraries like chart.js
-      - name: Set up Node.js (optional)
-        uses: actions/setup-node@v3
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@master
         with:
-          node-version: '16' # Ensure the Node.js version fits the requirements
+          username: Zreechxnn
+          theme: gradient
+          hide_border: true
+          show_icons: true
 
-      # Step 3: Generate Top Languages Stats with a Gradient, 3D Effect, and Animation
-      - name: Generate Top Languages Stats with 3D, Gradient, and Animation
-        run: |
-          curl "https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=dracula&custom_title=Top+Languages" -o dist/top-langs.svg
-          # After downloading, modify the SVG to add gradient, 3D effects, and animation
-          sed -i 's/<svg /<svg style="filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));" /' dist/top-langs.svg
-          sed -i 's/<rect /<rect fill="url(#gradient)" /' dist/top-langs.svg
-          echo '<defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#ff7e5f;stop-opacity:1" /><stop offset="100%" style="stop-color:#feb47b;stop-opacity:1" /></linearGradient>' >> dist/top-langs.svg
-          echo '<style> @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } } rect { animation: fadeIn 2s infinite alternate; } </style>' >> dist/top-langs.svg
-        continue-on-error: true  # Proceed even if this step fails
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@master
+        with:
+          username: Zreechxnn
+          theme: github-dark
+          hide_border: false
 
-      # Step 4: Generate Profile Summary Card with a 3D, Gradient Effect, and Animation
-      - name: Generate Profile Summary Card with 3D, Gradient, and Animation
+      - name: Create Animated GitHub Stats (Optional)
         run: |
-          curl "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zreechxnn&theme=github_dark" -o dist/profile-details.svg
-          # Modify SVG for 3D effect, gradient, and animation
-          sed -i 's/<svg /<svg style="filter: drop-shadow(3px 3px 10px rgba(0,0,0,0.7));" /' dist/profile-details.svg
-          sed -i 's/<rect /<rect fill="url(#gradient)" /' dist/profile-details.svg
-          echo '<defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6a11cb;stop-opacity:1" /><stop offset="100%" style="stop-color:#2575fc;stop-opacity:1" /></linearGradient>' >> dist/profile-details.svg
-          echo '<style> @keyframes scaleUp { 0% { transform: scale(1); } 100% { transform: scale(1.1); } } rect { animation: scaleUp 3s infinite alternate; } </style>' >> dist/profile-details.svg
-        continue-on-error: true  # Proceed even if this step fails
+          echo "Membuat file README dengan animasi efek menarik..."
+          echo '
+          ![Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
+          ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
+          ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
+          ' > README.md
 
-      # Step 5: Check if there are any changes in the generated SVG files
-      - name: Check if Changes Exist
-        id: changes
+      - name: Push Changes
         run: |
-          git diff --exit-code dist/top-langs.svg dist/profile-details.svg || echo "Changes detected"
-
-      # Step 6: Commit and push changes if any new updates are detected
-      - name: Commit and Push Changes
-        if: steps.changes.outputs.exitcode == '1'  # Only commit if there are changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/top-langs.svg dist/profile-details.svg
-          git commit -m "chore: update stats with animations" || echo "No changes to commit"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Update README with GitHub stats"
           git push
-
-      # Step 7: Notify on failure in the process (optional)
-      - name: Notify on Failure (optional)
-        if: failure()  # Send a notification if there was an error
-        run: echo "There was an error generating or committing the stats!"
