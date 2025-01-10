@@ -38,12 +38,6 @@
   I work with various languages and frameworks to build diverse applications.
 
   ### Languages:
-  - (https://www.cprogramming.com/)
-  - (https://www.w3schools.com/cpp/)
-  - (https://www.python.org)
-  - (https://www.ruby-lang.org/en/)
-  - (https://www.mysql.com/)
-
   <div class="tools">
     <a href="https://www.cprogramming.com/">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" alt="C">
