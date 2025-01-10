@@ -23,13 +23,8 @@
 
 ---
 
-## ## ![Tech Tools GIF](https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif) My Tools & Technologies
 
-I enjoy working with a wide variety of tools and technologies. Here's a selection of what I currently use and love:
-
-
-
-### Languages and Frameworks:
+<h2><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">Languages and Framework:</h2>
 <div class="tools">
   <a href="https://www.cprogramming.com/">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" alt="C">
