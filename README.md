@@ -102,7 +102,7 @@
   - **Email:** [hoshikochan93@gmail.com](mailto:hoshikochan93@gmail.com)
   - **LinkedIn:** [Rechan Dinata](https://www.linkedin.com/in/rechan-dinata-a80552278/)
   - **WhatsApp:** [Contact Me](https://wa.me/62895422689930)
-  - 
+    
 </details>
 
 ---
