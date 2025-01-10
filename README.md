@@ -12,17 +12,23 @@
 
 <details>
   <summary>GitHub Stats</summary>
+  
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
+  
 </details>
 
 <details>
   <summary>Streak Stats</summary>
+  
   ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
+  
 </details>
 
 <details>
   <summary>Top Languages</summary>
+  
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
+  
 </details>
 
 ---
