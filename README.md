@@ -46,10 +46,6 @@ Hello, I'm **Rechan Dinata**, a dedicated programmer passionate about building r
 
 ---
 
-![Profile Details](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/profile-details.svg)
-
----
-
 ![GitHub Contribution Snake](https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/snake.svg)
 
 
