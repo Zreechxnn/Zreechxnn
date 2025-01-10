@@ -12,20 +12,6 @@
 ---
 
 <details>
-  <summary>GitHub Stats</summary>
-  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
-  
-</details>
-
-<details>
-  <summary>Streak Stats</summary>
-  
-  ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
-  
-</details>
-
-<details>
   <summary>Top Languages</summary>
   
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
@@ -78,7 +64,7 @@
 ---
 
 <details>
-  <summary>Snake Animation</summary>
+  <summary>Contribution</summary>
   
   ![Snake Animation](https://github.com/Zreechxnn/Zreechxnn/blob/main/dist/snake.svg)
   
@@ -103,6 +89,24 @@
   - **LinkedIn:** [Rechan Dinata](https://www.linkedin.com/in/rechan-dinata-a80552278/)
   - **WhatsApp:** [Contact Me](https://wa.me/62895422689930)
     
+</details>
+
+---
+
+<details>
+  <summary>GitHub Stats</summary>
+  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
+  
+</details>
+
+---
+
+<details>
+  <summary>Streak Stats</summary>
+  
+  ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
+  
 </details>
 
 ---
