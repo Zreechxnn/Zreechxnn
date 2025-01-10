@@ -14,10 +14,9 @@
 <details>
   <summary>Top Languages</summary>
   
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+  ![Top Languages]([![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=pie&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+)
 
-  
 </details>
 
 ---
