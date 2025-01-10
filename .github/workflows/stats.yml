@@ -2,7 +2,7 @@ name: GitHub Stats Card
 
 on:
   schedule:
-    # Refresh setiap hari
+    # Refresh setiap hari pukul 00:00 UTC
     - cron: '0 0 * * *'
   push:
     branches:
@@ -14,9 +14,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Pull latest changes from remote repository
+      - name: Pull Changes from Remote
+        run: git pull origin main --rebase
+
+      # Update README.md dengan GitHub Stats
       - name: Update README.md with GitHub Stats
         run: |
           echo "Mengupdate README dengan GitHub Stats"
@@ -26,12 +32,12 @@ jobs:
           ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
           ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
           ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
-          ' > README.md
+          ' >> README.md  # Menggunakan >> untuk menambahkan konten ke README.md tanpa menghapus yang lain
 
+      # Push perubahan ke repository
       - name: Push Changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add README.md
-          git commit -m "Update README with GitHub stats"
-          git push
+          git diff --exit-code || (git commit -m "Update README with GitHub stats" && git push origin main)
