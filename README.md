@@ -38,11 +38,11 @@
   I work with various languages and frameworks to build diverse applications.
 
   ### Languages:
-  - [C](https://www.cprogramming.com/)
-  - [C++](https://www.w3schools.com/cpp/)
-  - [Python](https://www.python.org)
-  - [Ruby](https://www.ruby-lang.org/en/)
-  - [MySQL](https://www.mysql.com/)
+  - (https://www.cprogramming.com/)
+  - (https://www.w3schools.com/cpp/)
+  - (https://www.python.org)
+  - (https://www.ruby-lang.org/en/)
+  - (https://www.mysql.com/)
 
   <div class="tools">
     <a href="https://www.cprogramming.com/">
@@ -84,7 +84,9 @@
 
 <details>
   <summary>Snake Animation</summary>
+  
   ![Snake Animation](https://github.com/Zreechxnn/Zreechxnn/blob/main/dist/snake.svg)
+  
 </details>
 
 ---
