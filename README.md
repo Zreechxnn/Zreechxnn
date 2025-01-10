@@ -1,6 +1,5 @@
 # Welcome to My GitHub Profile!
 
-## About Me
 <details>
   <summary>Click to expand!</summary>
   <br />
@@ -24,11 +23,11 @@
 
 ---
 
-## 🛠️ My Tools & Technologies
+## ## ![Tech Tools GIF](https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif) My Tools & Technologies
 
 I enjoy working with a wide variety of tools and technologies. Here's a selection of what I currently use and love:
 
-![Tech Tools GIF](https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif)
+
 
 ### Languages and Frameworks:
 <div class="tools">
