@@ -14,7 +14,7 @@
 <details>
   <summary>Top Languages</summary>
   
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=pie&theme=radical)]
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=pie&theme=radical)
 
 </details>
 
