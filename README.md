@@ -105,7 +105,7 @@
 <details>
   <summary>Streak Stats</summary>
   
-  ![Streak Stats]([https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast](https://streak-stats.unofficialmirror.com/?user=Zreechxnn&theme=highcontrast)
+  ![Streak Stats]([https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast](https://streak-stats.unofficialmirror.com/?user=Zreechxnn&theme=highcontrast))
   
 </details>
 
