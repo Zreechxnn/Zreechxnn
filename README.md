@@ -3,6 +3,7 @@
 <details>
   <summary>Click to expand!</summary>
   <br />
+  
   Hello, I'm **Rechan Dinata**, a passionate programmer focused on building efficient and scalable applications. Coding is my craft, and I enjoy the problem-solving process, constantly learning new techniques and improving my skills.
 
   When I'm not coding, I explore the fascinating world of cryptography, delve into the Internet of Things (IoT), or enjoy a warm cup of coffee. ☕️
@@ -87,17 +88,21 @@
 
 <details>
   <summary>Currently Exploring</summary>
+  
   - **Cryptography:** I'm deepening my knowledge of cryptography and encryption methods to secure data and communication. 🔐
   - **IoT (Internet of Things):** Exploring the connection between software and hardware to create smarter systems. 🌐
+    
 </details>
 
 ---
 
 <details>
   <summary>Get in Touch</summary>
+  
   - **Email:** [hoshikochan93@gmail.com](mailto:hoshikochan93@gmail.com)
   - **LinkedIn:** [Rechan Dinata](https://www.linkedin.com/in/rechan-dinata-a80552278/)
   - **WhatsApp:** [Contact Me](https://wa.me/62895422689930)
+  - 
 </details>
 
 ---
