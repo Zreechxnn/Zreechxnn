@@ -2,6 +2,7 @@ name: GitHub Stats Card
 
 on:
   schedule:
+    # Refresh setiap hari
     - cron: '0 0 * * *'
   push:
     branches:
