@@ -10,34 +10,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@main
-        with:
-          username: Zreechxnn
-          theme: gradient
-          hide_border: true
-          show_icons: true
-
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          username: Zreechxnn
-          theme: github-dark
-          hide_border: false
-
-      - name: Create Animated GitHub Stats (Optional)
+      - name: Update README.md with GitHub Stats
         run: |
-          echo "Membuat file README dengan animasi efek menarik..."
+          echo "Mengupdate README dengan GitHub Stats"
           echo '
-          ![Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
-          ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
+          # GitHub Stats for Zreechxnn
+
+          ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
+          ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
           ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
           ' > README.md
 
@@ -45,6 +32,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add .
+          git add README.md
           git commit -m "Update README with GitHub stats"
           git push
