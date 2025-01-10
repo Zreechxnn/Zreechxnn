@@ -19,10 +19,7 @@
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
 </details>
 
-![Snake Animation](https://github.com/Zreechxnn/Zreechxnn/blob/main/dist/snake.svg)
-
 ---
-
 
 <h2><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">Languages and Framework:</h2>
 <div class="tools">
@@ -55,6 +52,10 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux">
   </a>
 </div>
+
+---
+
+![Snake Animation](https://github.com/Zreechxnn/Zreechxnn/blob/main/dist/snake.svg)
 
 ---
 
