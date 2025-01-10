@@ -7,4 +7,5 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
 
 </details>
+
 ![Snake Animation](https://github.com/Zreechxnn/Zreechxnn/blob/main/dist/snake.svg)
