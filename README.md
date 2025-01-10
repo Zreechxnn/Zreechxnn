@@ -105,7 +105,7 @@
 <details>
   <summary>Streak Stats</summary>
   
-  ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true&cache_seconds=86400)
   
 </details>
 
