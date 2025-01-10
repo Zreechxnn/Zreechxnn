@@ -2,7 +2,6 @@ name: GitHub Stats Card
 
 on:
   schedule:
-    # Refresh setiap hari
     - cron: '0 0 * * *'
   push:
     branches:
@@ -26,7 +25,7 @@ jobs:
           show_icons: true
 
       - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@master
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
           username: Zreechxnn
           theme: github-dark
