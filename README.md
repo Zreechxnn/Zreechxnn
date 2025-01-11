@@ -100,15 +100,6 @@
   
 </details>
 
-<details>
-  <summary>GitHub streak</summary>
-  
-![streak] (https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast) 
-  
-</details>
-
-
-
 ---
 
 Thank you for visiting my GitHub profile! Feel free to connect with me for collaboration opportunities, insights into programming, or just a casual chat about tech and development. 🚀
