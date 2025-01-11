@@ -100,7 +100,14 @@
   
 </details>
 
+<details>
+  <summary>GitHub streak</summary>
+  
 ![streak] (https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast) 
+  
+</details>
+
+
 
 ---
 
