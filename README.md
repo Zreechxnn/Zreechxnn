@@ -20,9 +20,8 @@
 ---
 
 <details>
-  <summary>Languages and Frameworks</summary>
-  I work with various languages and frameworks to build diverse applications.
-
+  <summary></summary>
+  
   ### Languages:
   <div class="tools">
     <a href="https://www.cprogramming.com/">
