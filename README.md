@@ -1,6 +1,6 @@
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary></summary>
   <br />
   
   Hello, I'm **Rechan Dinata**, a passionate programmer focused on building efficient and scalable applications. Coding is my craft, and I enjoy the problem-solving process, constantly learning new techniques and improving my skills.
