@@ -24,9 +24,6 @@
   
   ### Languages:
   <div class="tools">
-    <a href="https://www.cprogramming.com/">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" alt="C">
-    </a>
     <a href="https://www.w3schools.com/cpp/">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++">
     </a>
