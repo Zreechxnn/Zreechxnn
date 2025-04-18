@@ -47,6 +47,9 @@
   I use various tools and platforms to enhance my development process.
 
   <div class="tools">
+    <a href="https://code.visualstudio.com/">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width="40" height="40" alt="Arduino">
+    </a>
     <a href="https://www.arduino.cc/">
       <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40" height="40" alt="Arduino">
     </a>
