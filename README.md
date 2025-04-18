@@ -66,7 +66,7 @@
       <img src="https://github.com/devicons/devicon/blob/master/icons/nano/nano-original.svg" width="40" height="40" alt="Linux">
     </a>
     <a href="https://www.openssh.com/">
-      <img src="https://github.com/devicons/devicon/blob/master/icons/ssh/ssh-original-wordmark.svg" width="40" height="40" alt="Linux">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/ssh/ssh-original.svg" width="40" height="40" alt="Linux">
     </a>
   </div>
 </details>
