@@ -56,8 +56,8 @@
     <a href="https://git-scm.com/">
       <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" alt="Git">
     </a>
-    <a href="https://www.linux.org/">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux">
+    <a href=https://ubuntu.com/">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-original.svg" width="40" height="40" alt="Linux">
     </a>
     <a href="https://opencv.org/">
       <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" width="40" height="40" alt="Linux">
