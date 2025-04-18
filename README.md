@@ -59,6 +59,9 @@
     <a href="https://opencv.org/">
       <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" width="40" height="40" alt="Linux">
     </a>
+    <a href="https://www.libsdl.org/">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/sdl/sdl-original.svg" width="40" height="40" alt="Linux">
+    </a>
   </div>
 </details>
 
