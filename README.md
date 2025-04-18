@@ -33,7 +33,7 @@
     <a href="https://www.python.org">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python">
     </a>
-    <a href="https://www.ruby-lang.org/en/">
+    <a href="https://www.java.com/en/">
       <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" width="40" height="40" alt="Ruby">
     </a>
     <a href="https://www.mysql.com/">
