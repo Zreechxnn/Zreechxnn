@@ -34,7 +34,7 @@
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python">
     </a>
     <a href="https://www.ruby-lang.org/en/">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="40" height="40" alt="Ruby">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" width="40" height="40" alt="Ruby">
     </a>
     <a href="https://www.mysql.com/">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" alt="MySQL">
