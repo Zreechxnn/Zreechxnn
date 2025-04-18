@@ -62,6 +62,9 @@
     <a href="https://www.libsdl.org/">
       <img src="https://github.com/devicons/devicon/blob/master/icons/sdl/sdl-original.svg" width="40" height="40" alt="Linux">
     </a>
+    <a href="https://www.nano-editor.org/">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/nano/nano-original.svg" width="40" height="40" alt="Linux">
+    </a>
   </div>
 </details>
 
