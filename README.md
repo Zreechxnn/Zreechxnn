@@ -56,6 +56,9 @@
     <a href="https://www.linux.org/">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux">
     </a>
+    <a href="https://opencv.org/">
+      <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" width="40" height="40" alt="Linux">
+    </a>
   </div>
 </details>
 
