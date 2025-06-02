@@ -1,7 +1,7 @@
-# 💻 Rechan Dinata - Systems Engineer & Technology Specialist
+# 💻 Rechan Dinata - Systems Engineer & GUI
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3800&pause=800&color=4F8CC9&center=true&vCenter=true&width=700&lines=Building+Robust+Systems;Efficient+Problem+Solver;Cryptography+Specialist;IoT+Developer;Desktop+GUI+Expert" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3800&pause=800&color=4F8CC9&center=true&vCenter=true&width=700&lines=Building+Robust+Systems;Efficient+Problem+Solver;Cryptography+Specialist;GUI+Developer;SDL+Expert" alt="Typing Animation" />
 </div>
 
 ---
@@ -10,15 +10,15 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Zreechxnn&label=Profile+Views&color=blueviolet&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Focus-Systems%20%26%20Desktop-blue" alt="Focus Area" />
+  <img src="https://img.shields.io/badge/Focus-Systems%20%26%20GUI-blue" alt="Focus Area" />
 </p>
 
-> *"Developing high-performance solutions at the intersection of security and embedded systems. I specialize in creating efficient desktop applications, cryptographic tools, and IoT solutions with a focus on clean architecture and optimization."*
+> *"Developing high-performance solutions with a focus on desktop applications and system programming. I specialize in creating efficient GUI applications using Swing and SDL, while building secure cryptographic tools and IoT solutions."*
 
 When not coding, I'm typically:
 - 🔐 Designing and implementing cryptographic protocols
 - 🌐 Prototyping IoT devices with Arduino/Raspberry Pi
-- 🖥️ Building cross-platform GUI applications
+- 🖥️ Building desktop applications with Java Swing and SDL
 - ☕ Exploring specialty coffees while reading security research
 - 🧩 Solving cryptographic puzzles and CTF challenges
 
@@ -35,8 +35,8 @@ When not coding, I'm typically:
 
 ### GUI Development
 <div align="center">
-  <img src="https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white&style=for-the-badge" alt="Qt" />
-  <img src="https://img.shields.io/badge/GTK-7FE719?logo=gtk&logoColor=black&style=for-the-badge" alt="GTK" />
+  <img src="https://img.shields.io/badge/Java_Swing-007396?logo=java&logoColor=white&style=for-the-badge" alt="Java Swing" />
+  <img src="https://img.shields.io/badge/SDL-000000?logo=sdl&logoColor=white&style=for-the-badge" alt="SDL" />
   <img src="https://img.shields.io/badge/OpenGL-5580A0?logo=opengl&logoColor=white&style=for-the-badge" alt="OpenGL" />
 </div>
 
@@ -84,8 +84,8 @@ When not coding, I'm typically:
   | Domain | Technologies | Status |
   |--------|--------------|--------|
   | **Cryptographic Systems** | OpenSSL, Crypto++ | 🔐 Researching |
-  | **IoT Security** | Arduino, ESP32, LoRaWAN | 🌐 Prototyping |
-  | **Desktop Applications** | Qt, OpenGL, JavaFX | 🖥️ Developing |
+  | **Desktop GUI** | Java Swing, SDL, OpenGL | 🖥️ Developing |
+  | **Game Development** | SDL, C++ | 🎮 Creating |
   | **Computer Vision** | OpenCV, CUDA | 👁️ Optimizing |
   
 </div>
@@ -96,9 +96,9 @@ When not coding, I'm typically:
 
 <div align="center">
   
-  [![Secure IoT Framework](https://img.shields.io/badge/🔐_Secure_IoT_Framework-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/iot-security)
+  [![Swing Desktop App](https://img.shields.io/badge/🖥️_Swing_Desktop_App-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/swing-app)
+  [![SDL Game Project](https://img.shields.io/badge/🎮_SDL_Game_Engine-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/sdl-engine)
   [![Cryptography Toolkit](https://img.shields.io/badge/🔏_Crypto_Toolkit-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/crypto-toolkit)
-  [![Vision Processing App](https://img.shields.io/badge/👁️_Computer_Vision_Desktop-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/opencv-desktop)
   
 </div>
 
@@ -123,6 +123,6 @@ When not coding, I'm typically:
 </div>
 
 <p align="center">
-  <i>Open for collaboration on systems programming and security projects</i> ✨<br>
-  <i>"Engineering solutions beyond the browser"</i> 🚀
+  <i>Open for collaboration on desktop applications and system programming projects</i> ✨<br>
+  <i>"Crafting performant desktop experiences beyond the web"</i> 🚀
 </p>
