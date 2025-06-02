@@ -1,7 +1,7 @@
-# 💫 Rechan Dinata - Full-Stack Developer & Tech Explorer
+# 💻 Rechan Dinata - Systems Engineer & Technology Specialist
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3800&pause=800&color=4F8CC9&center=true&vCenter=true&width=680&lines=Building+Scalable+Solutions;Passionate+Problem+Solver;Cryptography+Enthusiast;IoT+Tinkerer;Coffee+Lover+%F0%9F%8D%83;Blockchain+Explorer" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3800&pause=800&color=4F8CC9&center=true&vCenter=true&width=700&lines=Building+Robust+Systems;Efficient+Problem+Solver;Cryptography+Specialist;IoT+Developer;Desktop+GUI+Expert" alt="Typing Animation" />
 </div>
 
 ---
@@ -10,46 +10,53 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Zreechxnn&label=Profile+Views&color=blueviolet&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Status-Coding%20Sprint-ff69b4" alt="Status" />
-  <img src="https://img.shields.io/badge/Mood-Caffeinated%20%E2%98%95%EF%B8%8F-yellow" alt="Mood" />
+  <img src="https://img.shields.io/badge/Focus-Systems%20%26%20Desktop-blue" alt="Focus Area" />
 </p>
 
-> *"Where algorithms meet artistry - I build digital bridges between complex problems and elegant solutions. At the intersection of cryptography and innovation, I craft secure systems that push technological boundaries."*
+> *"Developing high-performance solutions at the intersection of security and embedded systems. I specialize in creating efficient desktop applications, cryptographic tools, and IoT solutions with a focus on clean architecture and optimization."*
 
-When I'm not immersed in code, you'll find me:
-- 🔐 Designing cryptographic protocols for IoT ecosystems
-- 🌐 Prototyping smart devices with Arduino/Raspberry Pi
-- ☕ Exploring Indonesian single-origin coffees
-- 🧩 Competing in national CTF challenges
-- 📚 Reading whitepapers on zero-knowledge proofs
+When not coding, I'm typically:
+- 🔐 Designing and implementing cryptographic protocols
+- 🌐 Prototyping IoT devices with Arduino/Raspberry Pi
+- 🖥️ Building cross-platform GUI applications
+- ☕ Exploring specialty coffees while reading security research
+- 🧩 Solving cryptographic puzzles and CTF challenges
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🛠️ Technical Expertise
 
-### 🔤 Languages
+### Core Languages
 <div align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge&logoWidth=20" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" /> 
-  <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=for-the-badge" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white&style=for-the-badge" alt="Solidity" />
+  <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white&style=for-the-badge" alt="Java" />
 </div>
 
-### 🧩 Frameworks & Libraries
+### GUI Development
+<div align="center">
+  <img src="https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white&style=for-the-badge" alt="Qt" />
+  <img src="https://img.shields.io/badge/GTK-7FE719?logo=gtk&logoColor=black&style=for-the-badge" alt="GTK" />
+  <img src="https://img.shields.io/badge/OpenGL-5580A0?logo=opengl&logoColor=white&style=for-the-badge" alt="OpenGL" />
+</div>
+
+### Security & Cryptography
+<div align="center">
+  <img src="https://img.shields.io/badge/OpenSSL-721412?logo=openssl&logoColor=white&style=for-the-badge" alt="OpenSSL" />
+  <img src="https://img.shields.io/badge/Cryptography-000000?style=for-the-badge&logo=keycdn&logoColor=white" alt="Cryptography" />
+</div>
+
+### IoT & Embedded
+<div align="center">
+  <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge" alt="Arduino" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?logo=raspberrypi&logoColor=white&style=for-the-badge" alt="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/ESP32-000000?logo=espressif&logoColor=white&style=for-the-badge" alt="ESP32" />
+</div>
+
+### Tools & Libraries
 <div align="center">
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" alt="Node.js" />
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" alt="React" />
-  <img src="https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white&style=for-the-badge" alt="Spring" />
-</div>
-
-### 🧪 Tools & Platforms
-<div align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge" alt="Arduino" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white&style=for-the-badge" alt="CMake" />
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git" />
 </div>
 
@@ -58,31 +65,28 @@ When I'm not immersed in code, you'll find me:
 ## 📊 GitHub Analytics
 
 <div align="center">
-  
-  | Statistic | Visualization |
-  |-----------|---------------|
-  | **Profile Activity** | <img src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=30,0d1117,161b22" height="165" /> |
-  | **Top Languages** | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical&hide_border=true&bg_color=30,161b22,0d1117&langs_count=8" height="165" /> |
-  | **Streak** | <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=radical&hide_border=true&background=161B22" height="165" /> |
-  
+  <a href="https://github.com/Zreechxnn">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=30,0d1117,161b22&title_color=4F8CC9&text_color=ffffff" alt="GitHub Stats" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical&hide_border=true&bg_color=30,161b22,0d1117&langs_count=6&title_color=4F8CC9&text_color=ffffff&exclude_repo=web*,js-*" alt="Top Languages" />
+  </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zreechxnn&theme=react-dark&hide_border=true&area=true&custom_title=Contribution+Map&radius=16" alt="Activity Graph" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zreechxnn&theme=react-dark&hide_border=true&area=true&custom_title=Development+Activity&radius=16&color=4F8CC9&bg_color=161b22" alt="Activity Graph" width="95%" />
 </div>
 
 ---
 
-## 🔭 Current Explorations
+## 🔭 Current Focus Areas
 
 <div align="center">
   
-  | Domain | Focus Area | Status | Tools |
-  |--------|------------|--------|-------|
-  | **Security Engineering** | Cryptographic Protocols | 🔐 Researching | OpenSSL, Cryptol |
-  | **Edge Computing** | IoT Security | 🌐 Prototyping | Raspberry Pi, ESP32 |
-  | **Web3** | Smart Contracts | 💡 Experimenting | Hardhat, Ethers.js |
-  | **Computer Vision** | Real-time Processing | 👁️ Developing | OpenCV, YOLO |
+  | Domain | Technologies | Status |
+  |--------|--------------|--------|
+  | **Cryptographic Systems** | OpenSSL, Crypto++ | 🔐 Researching |
+  | **IoT Security** | Arduino, ESP32, LoRaWAN | 🌐 Prototyping |
+  | **Desktop Applications** | Qt, OpenGL, JavaFX | 🖥️ Developing |
+  | **Computer Vision** | OpenCV, CUDA | 👁️ Optimizing |
   
 </div>
 
@@ -92,15 +96,15 @@ When I'm not immersed in code, you'll find me:
 
 <div align="center">
   
-  [![Secure IoT Framework](https://img.shields.io/badge/🔐-Secure_IoT_Framework-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/iot-security)
-  [![Crypto Visualizer](https://img.shields.io/badge/🪙-Crypto_Visualizer-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/crypto-viz)
-  [![Arduino Security Kit](https://img.shields.io/badge/🔒-Arduino_Security_Kit-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/arduino-security)
+  [![Secure IoT Framework](https://img.shields.io/badge/🔐_Secure_IoT_Framework-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/iot-security)
+  [![Cryptography Toolkit](https://img.shields.io/badge/🔏_Crypto_Toolkit-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/crypto-toolkit)
+  [![Vision Processing App](https://img.shields.io/badge/👁️_Computer_Vision_Desktop-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/opencv-desktop)
   
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## 📫 Connect With Me
 
 <p align="center">
   <a href="mailto:hoshikochan93@gmail.com">
@@ -109,19 +113,16 @@ When I'm not immersed in code, you'll find me:
   <a href="https://www.linkedin.com/in/rechan-dinata-a80552278">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="https://dev.to/zreechxnn">
-    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
+  <a href="https://github.com/Zreechxnn">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/snake.svg" alt="Snake Game Contribution" />
+  <img src="https://raw.githubusercontent.com/Zreechxnn/Zreechxnn/main/dist/snake.svg" alt="Coding Activity" />
 </div>
 
 <p align="center">
-  <i>Open for collaboration on innovative projects!</i> ✨<br>
-  <i>"Let's build solutions that matter"</i> 🚀
+  <i>Open for collaboration on systems programming and security projects</i> ✨<br>
+  <i>"Engineering solutions beyond the browser"</i> 🚀
 </p>
