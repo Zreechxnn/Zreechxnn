@@ -96,10 +96,8 @@ When not coding, I'm typically:
 
 <div align="center">
   
-  [![Swing Desktop App](https://img.shields.io/badge/🖥️_Swing_Desktop_App-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/swing-app)
-  [![SDL Game Project](https://img.shields.io/badge/🎮_SDL_Game_Engine-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/sdl-engine)
-  [![Cryptography Toolkit](https://img.shields.io/badge/🔏_Crypto_Toolkit-2ea44f?style=for-the-badge)](https://github.com/Zreechxnn/crypto-toolkit)
-  
+  [![SDL Game Project](https://img.shields.io/badge/🎮_Maze_Game-2ea44f?style=for-the-badge)](https://zreechxnn.github.io/maze-game/)
+ 
 </div>
 
 ---
