@@ -1,9 +1,5 @@
-<center>
-  
-  # 💻 Rechan Dinata | focus in Systems & GUI
-  
-</center>
 
+  # 💻 Rechan Dinata | 
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3800&pause=800&color=4F8CC9&center=true&vCenter=true&width=700&lines=Building+Robust+Systems;Efficient+Problem+Solver;Cryptography+Specialist;GUI+Developer;SDL+Expert" alt="Typing Animation" />
