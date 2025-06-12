@@ -47,7 +47,7 @@
 ### IoT & Embedded
 <div align="center">
   <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?logo=raspberrypi&logoColor=white&style=flat-square" />
+<!--   <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?logo=raspberrypi&logoColor=white&style=flat-square" /> -->
   <img src="https://img.shields.io/badge/ESP32-000000?logo=espressif&logoColor=white&style=flat-square" />
 </div>
 
