@@ -6,9 +6,9 @@
 
 ---
 
-## 👤 Professional Profile
+## 👤 Profile
 
-> *"Specializing in high-performance system solutions and intuitive desktop interfaces. Combining cryptographic expertise with efficient GUI design to create secure, user-centered applications."*
+> *"Working on easy to use desktop interfaces. Interested in applying cryptography and GUI design to build secure and easy to use applications."*
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=flat&color=4F8CC9" />
