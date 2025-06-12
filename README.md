@@ -74,8 +74,8 @@ Featured Work
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zreechxnn/output/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zreechxnn/output/output/snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/zreechxnn/output/output/snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zreechxnn/output/snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/zreechxnn/output/snake.svg" />
   </picture>
 </div>
  </div><div align="center" style="margin-top:20px; font-size:0.9em; color:#4F8CC9"> <i>"Crafting performant systems beyond conventional boundaries"</i> • <i>"Secure by design, efficient by implementation"</i> </div> 
