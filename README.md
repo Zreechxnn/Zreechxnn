@@ -70,6 +70,6 @@ Featured Work
 
 ---
 
-<div align="center"> <a href="mailto:hoshikochan93@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/rechan-dinata-a80552278"> <img src="https://img.shields.io/badge/LinkedIn-Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/Zreechxnn"> <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </div><div align="center" style="margin-top:30px"> ![snake gif](https://raw.githubusercontent.com/zreechxnn/output/output/snake.svg)
+<div align="center"> <a href="mailto:hoshikochan93@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/rechan-dinata-a80552278"> <img src="https://img.shields.io/badge/LinkedIn-Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/Zreechxnn"> <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </div><div align="center" style="margin-top:30px"> ![snake gif](https://raw.githubusercontent.com/zreechxnn/output/snake.svg)
  </div><div align="center" style="margin-top:20px; font-size:0.9em; color:#4F8CC9"> <i>"Crafting performant systems beyond conventional boundaries"</i> • <i>"Secure by design, efficient by implementation"</i> </div> 
 ```
