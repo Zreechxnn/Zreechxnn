@@ -1,6 +1,4 @@
-Berikut adalah versi lengkap dengan desain profesional dalam satu file markdown:
 
-```markdown
 # 💻 Rechan Dinata | Systems Engineer & GUI Specialist
 
 <div align="center">
@@ -60,13 +58,11 @@ Berikut adalah versi lengkap dengan desain profesional dalam satu file markdown:
 
 <div align="center">
   
-  ```mermaid
   graph LR
     A[System Design] --> B[Implementation]
     B --> C[GUI Development]
     C --> D[Security Integration]
     D --> E[Performance Optimization]
-  ```
 
 </div>
 
