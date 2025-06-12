@@ -61,6 +61,7 @@ graph LR
   B --> C[GUI Development]
   C --> D[Security Integration]
   D --> E[Performance Optimization]
+```
 
 <table align="center"> <tr> <td width="50%"> <img src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=4F8CC9&text_color=9f9f9f&include_all_commits=true&count_private=true" alt="GitHub Stats" /> </td> <td width="50%"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=4F8CC9&text_color=9f9f9f&langs_count=6" alt="Top Languages" /> </td> </tr> <tr> <td colspan="2"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zreechxnn&theme=github-dark&hide_border=true&area=true&custom_title=Development+Activity&radius=16&color=4F8CC9&bg_color=00000000" alt="Activity Graph" /> </td> </tr> </table>
 🔭 Current Projects
