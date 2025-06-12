@@ -29,6 +29,9 @@
   <img src="https://img.shields.io/badge/OpenGL-5580A0?logo=opengl&logoColor=white&style=flat-square" />
 </div>
 
+## Computer Vision & AI
+<div align="center"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white&style=flat-square" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat-square" /> <img src="https://img.shields.io/badge/Computer_Vision-4F8CC9?style=flat-square" /> </div>
+
 ### Security & Cryptography
 <div align="center">
   <img src="https://img.shields.io/badge/OpenSSL-721412?logo=openssl&logoColor=white&style=flat-square" />
