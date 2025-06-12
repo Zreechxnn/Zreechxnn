@@ -1,0 +1,41 @@
+name: ♻️ Actualizar cache_bust y timestamp una vez al día
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Una vez al día a las 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Git
+        run: |
+          git config user.name "zreechxnn"
+          git config user.email "zreechxnn@users.noreply.github.com"
+
+      - name: Actualizar cache_bust y timestamp
+        run: |
+          FECHA=$(date -u '+%Y%m%d')
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+          echo "🛠️ Actualizando README.md: $TIMESTAMP"
+
+          # Actualiza el README.md
+          sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
+          sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/[^"]*)&cache_bust=[0-9]{8}|\1|g' README.md
+          sed -i -E 's|(src="https://github-readme-stats\.vercel\.app/api/pin/[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
+
+          # Commit si hay cambios
+          if git diff --quiet; then
+            echo "✅ Sin cambios detectados, no se hará commit."
+          else
+            git add README.md
+            git commit -m "♻️ cache_bust actualizado a $FECHA"
+            git push
+            echo "✅ Commit enviado con cache_bust actualizado."
+          fi
