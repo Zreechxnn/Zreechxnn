@@ -96,9 +96,9 @@ When not coding, I'm typically:
 
 <div align="center">
   
-  [![maze game](https://img.shields.io/badge/🎮_Maze_Game_C++-2ea44f?style=for-the-badge)](https://zreechxnn.github.io/maze-game/)
-  [![calcuator](https://img.shields.io/badge/🎮_Calculator_C++-2ea44f?style=for-the-badge)](https://zreechxnn.github.io/calculator-SDL2//)
- 
+  [![maze game](https://img.shields.io/badge/🧩_Maze_Game_C++-2ea44f?style=for-the-badge)](https://zreechxnn.github.io/maze-game/)
+  [![calculator](https://img.shields.io/badge/🧮_Calculator_C++-2ea44f?style=for-the-badge)](https://zreechxnn.github.io/calculator-SDL2//)
+
 </div>
 
 ---
