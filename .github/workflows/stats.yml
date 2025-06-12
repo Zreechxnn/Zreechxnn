@@ -1,12 +1,8 @@
-name: GitHub Stats Card
+name: ♻️ GitHub Stats Card to output branch
 
 on:
   schedule:
-    # Refresh setiap hari pukul 00:00 UTC
-    - cron: '0 0 * * *'
-  push:
-    branches:
-      - main
+    - cron: "0 0 * * *" # Setiap hari pukul 00:00 UTC (07:00 WIB)
   workflow_dispatch:
 
 jobs:
@@ -14,30 +10,52 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
-      - name: Checkout repository
+      - name: 🔄 Checkout repository (dari branch main)
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # agar bisa checkout ke branch lain
 
-      # Pull latest changes from remote repository
-      - name: Pull Changes from Remote
-        run: git pull origin main --rebase
-
-      # Update README.md dengan GitHub Stats
-      - name: Update README.md with GitHub Stats
-        run: |
-          echo "Mengupdate README dengan GitHub Stats"
-          echo '
-          # GitHub Stats for Zreechxnn
-
-          ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
-          ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
-          ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
-          ' >> README.md  # Menggunakan >> untuk menambahkan konten ke README.md tanpa menghapus yang lain
-
-      # Push perubahan ke repository
-      - name: Push Changes
+      - name: ⚙️ Setup Git
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add README.md
-          git diff --exit-code || (git commit -m "Update README with GitHub stats" && git push origin main)
+
+      - name: 📂 Checkout branch output (buat jika belum ada)
+        run: |
+          git fetch origin output || true
+          git checkout output || git checkout -b output
+
+      - name: 🛠️ Update bagian GitHub Stats di README.md
+        run: |
+          STATS=$(cat <<EOF
+          <!-- STATS_START -->
+          ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zreechxnn&theme=radical&show_icons=true&count_private=true)
+          ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Zreechxnn&theme=highcontrast)
+          ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=radical)
+          <!-- STATS_END -->
+          EOF
+          )
+
+          # Jika README.md belum ada, buat file baru
+          if [ ! -f README.md ]; then
+            echo "$STATS" > README.md
+          else
+            # Jika sudah ada tag, replace di antara tag
+            if grep -q "<!-- STATS_START -->" README.md; then
+              sed -i '/<!-- STATS_START -->/,/<!-- STATS_END -->/c\'"$STATS"'' README.md
+            else
+              # Jika belum ada tag, tambahkan di akhir
+              echo -e "\n$STATS" >> README.md
+            fi
+          fi
+
+      - name: ✅ Commit dan push jika ada perubahan
+        run: |
+          if git diff --quiet; then
+            echo "✅ Tidak ada perubahan, tidak commit."
+          else
+            git add README.md
+            git commit -m "♻️ Update GitHub Stats $(date +'%Y-%m-%d')"
+            git push -f origin output
+            echo "✅ Push ke branch 'output' selesai."
+          fi

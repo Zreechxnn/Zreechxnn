@@ -2,7 +2,7 @@ name: 🐍 Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Setiap hari pukul 07:00 WIB
   push:
     branches:
       - main
@@ -12,10 +12,13 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Perlu untuk push ke branch output
 
     steps:
-      - name: Generate GitHub contribution snake
+      - name: 📦 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Generate GitHub contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: zreechxnn
@@ -23,7 +26,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Push to output branch
+      - name: 🚀 Push hasil ke branch `output`
         uses: crazy-max/ghaction-github-pages@v4.1.0
         with:
           target_branch: output

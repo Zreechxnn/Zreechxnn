@@ -1,8 +1,11 @@
-name: ♻️ Actualizar cache_bust y timestamp una vez al día
+name: ♻️ Update cache_bust & timestamp daily at 22:45 WIB
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Una vez al día a las 00:00 UTC
+    - cron: "45 15 * * *"  
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -10,32 +13,48 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar el repositorio
+      - name: 🔄 Checkout repository (default branch: main)
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  
 
-      - name: Configurar Git
+      - name: ⚙️ Konfigurasi Git
         run: |
           git config user.name "zreechxnn"
           git config user.email "zreechxnn@users.noreply.github.com"
 
-      - name: Actualizar cache_bust y timestamp
+      - name: 🛠️ Checkout ke branch `output` dan update README.md
         run: |
+          # Simpan commit terakhir untuk kembali jika perlu
+          git stash
+
+          # Buat branch output jika belum ada
+          git fetch origin output || true
+          git checkout output || git checkout -b output
+
+          # Ambil kembali perubahan dari stash (README.md workflow hasil generate)
+          git stash pop || echo "🗒️ Tidak ada stash untuk dipulihkan"
+
           FECHA=$(date -u '+%Y%m%d')
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
 
-          echo "🛠️ Actualizando README.md: $TIMESTAMP"
+          echo "🕒 Update README.md: $TIMESTAMP"
 
-          # Actualiza el README.md
+          # Update timestamp di baris pertama
           sed -i "1s|^.*$|<!-- Última actualización: $TIMESTAMP -->|" README.md
+
+          # Hilangkan cache_bust lama
           sed -i -E 's|(https://github-readme-stats\.vercel\.app/api/pin/[^"]*)&cache_bust=[0-9]{8}|\1|g' README.md
+
+          # Tambahkan cache_bust baru
           sed -i -E 's|(src="https://github-readme-stats\.vercel\.app/api/pin/[^"]+)(\")|\1\&cache_bust='"$FECHA"'\2|g' README.md
 
-          # Commit si hay cambios
+          # Commit jika ada perubahan
           if git diff --quiet; then
-            echo "✅ Sin cambios detectados, no se hará commit."
+            echo "✅ Tidak ada perubahan, tidak perlu commit."
           else
             git add README.md
-            git commit -m "♻️ cache_bust actualizado a $FECHA"
-            git push
-            echo "✅ Commit enviado con cache_bust actualizado."
+            git commit -m "♻️ cache_bust diperbarui ke $FECHA"
+            git push -f origin output
+            echo "✅ README.md berhasil dipush ke branch 'output'."
           fi

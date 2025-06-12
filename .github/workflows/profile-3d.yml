@@ -2,17 +2,23 @@ name: 🧊 GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *" # Ejecuta diariamente
-  workflow_dispatch: # Permite ejecución manual
+    - cron: "0 20 * * *" # Setiap hari pukul 03:00 WIB
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate GitHub Contributions (night blue)
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Generate GitHub Profile 3D (Night blue)
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Penting agar bisa checkout branch lain
+
+      - name: 🎨 Generate GitHub Profile 3D (Night blue)
         uses: yoshi389111/github-profile-3d-contrib@0.9.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -20,10 +26,20 @@ jobs:
         with:
           args: --theme "night-blue"
 
-      - name: Commit and push
+      - name: 🧾 Commit and push to `output` branch
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "yeah"
-          git push
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          # Pastikan berada di cabang output
+          git checkout -B output
+
+          # Cek perubahan dan push jika perlu
+          if git diff --quiet; then
+            echo "✅ Tidak ada perubahan pada hasil."
+          else
+            git add -A
+            git commit -m "🧊 update 3D contributions $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push -f origin output
+            echo "✅ Hasil berhasil dipush ke branch 'output'."
+          fi
