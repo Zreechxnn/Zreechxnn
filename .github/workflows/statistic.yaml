@@ -1,83 +1,104 @@
-# GitHub 3D Statistics - Zreechxnn/Zreechxnn
-# Generated: 2025-06-14
+name: Update 3D Stats
 
-repository:
-  name: Zreechxnn
-  full_name: Zreechxnn/Zreechxnn
-  description: "⚡ Config files for my GitHub profile."
-  url: https://github.com/Zreechxnn/Zreechxnn
-  created_at: "2023-01-21T06:16:07Z"
-  updated_at: "2025-06-14T07:22:09Z"
-  size: 12
-  stars: 0
-  forks: 0
-  watchers: 1
-  open_issues: 0
-  default_branch: "main"
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Setiap hari jam 00:00 UTC
+  workflow_dispatch:     # Memungkinkan trigger manual
+  push:
+    branches:
+      - main
 
-owner:
-  username: "Zreechxnn"
-  type: "User"
-  url: https://github.com/Zreechxnn
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        ref: output  # Langsung checkout branch output
 
-activity:
-  last_commit:
-    sha: "e3d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2"
-    message: "Update README.md"
-    date: "2025-06-10T12:30:45Z"
-    author: "Zreechxnn"
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
 
-  commit_frequency:
-    daily_avg: 0.85
-    weekly_avg: 5.3
+    - name: Install Dependencies
+      run: |
+        pip install PyGithub pyyaml
 
-  recent_activity:
-    - type: "PushEvent"
-      count: 3
-      last: "2025-06-10"
-    - type: "IssueCommentEvent"
-      count: 2
-      last: "2025-06-08"
+    - name: Generate Stats YAML
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python - <<EOF
+        from github import Github
+        import yaml
+        import datetime
 
-languages_3d:
-  - name: "Markdown"
-    percentage: 68.5
-    depth: 15
-    color: "#083fa1"
-    glow: true
+        # Inisialisasi GitHub API
+        g = Github("${{ secrets.GITHUB_TOKEN }}")
+        repo = g.get_repo("Zreechxnn/Zreechxnn")
+        owner = g.get_user("Zreechxnn")
+        
+        # Dapatkan data repository
+        languages = repo.get_languages()
+        total_bytes = sum(languages.values())
+        
+        # Format data 3D
+        languages_3d = []
+        for lang, bytes_count in languages.items():
+            percentage = round((bytes_count / total_bytes) * 100, 1)
+            depth = int(percentage * 0.3)  # Skala kedalaman 3D
+            
+            # Default colors untuk bahasa populer
+            colors = {
+                "Python": "#3572A5",
+                "JavaScript": "#f1e05a",
+                "HTML": "#e34c26",
+                "CSS": "#563d7c",
+                "Markdown": "#083fa1",
+                "YAML": "#cb171e"
+            }
+            
+            languages_3d.append({
+                "name": lang,
+                "percentage": percentage,
+                "depth": depth,
+                "color": colors.get(lang, "#6f42c1"),
+                "glow": percentage > 20
+            })
+        
+        # Buat struktur data YAML
+        stats_data = {
+            "metadata": {
+                "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+                "repository": repo.full_name
+            },
+            "stats": {
+                "stars": repo.stargazers_count,
+                "forks": repo.forks_count,
+                "watchers": repo.watchers_count,
+                "size_kb": repo.size,
+                "languages_3d": languages_3d
+            },
+            "visualization": {
+                "camera": {"position": [8, 5, 12], "rotation": [-0.2, 0.8, 0.1]},
+                "lighting": {"intensity": 1.2, "color": "#4da6ff"}
+            }
+        }
+        
+        # Tulis ke file YAML
+        with open("github_stats_3d.yaml", "w") as f:
+            yaml.dump(stats_data, f, sort_keys=False, allow_unicode=True)
+        EOF
 
-  - name: "YAML"
-    percentage: 22.3
-    depth: 8
-    color: "#cb171e"
-    glow: false
-
-  - name: "Git Config"
-    percentage: 9.2
-    depth: 4
-    color: "#f14e32"
-    glow: false
-
-contributions:
-  total_commits: 127
-  current_year: 42
-  longest_streak: 16
-  current_streak: 5
-
-special_achievements:
-  - name: "Arctic Code Vault"
-    achieved: true
-    date: "2023-02-15"
-  - name: "Galaxy Explorer"
-    achieved: false
-
-visualization_params:
-  camera:
-    position: [8, 5, 12]
-    rotation: [-0.2, 0.8, 0.1]
-  lighting:
-    intensity: 1.2
-    color: "#4da6ff"
-  effects:
-    bloom: true
-    shadows: true
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "GitHub Actions"
+        git add github_stats_3d.yaml
+        git commit -m "📊 Auto-update 3D stats - $(date +'%Y-%m-%d')"
+        git push origin output
