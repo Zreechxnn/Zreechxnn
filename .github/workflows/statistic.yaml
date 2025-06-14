@@ -2,7 +2,7 @@ name: Update 3D Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Setiap hari jam 00:00 UTC
+    - cron: '0 14 * * *' 
   workflow_dispatch:     # Memungkinkan trigger manual
   push:
     branches:
