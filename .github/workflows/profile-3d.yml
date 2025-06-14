@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch: {}  # ← Perbaikan disini
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
       - name: 🔄 Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Penting agar bisa melihat seluruh riwayat commit
+          fetch-depth: 0
 
       - name: 🎨 Generate GitHub Profile 3D (Night blue)
         uses: yoshi389111/github-profile-3d-contrib@0.9.0
