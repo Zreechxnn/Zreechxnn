@@ -1,4 +1,4 @@
-# 💻 Rechan Dinata | 
+# 💻 Rechan Dinata | Zreechxnn
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3800&pause=800&color=4F8CC9&center=true&vCenter=true&width=700&lines=Learning+System+Development;Interested+in+Cryptography;Exploring+GUI+and+SDL;Still+Learning+Every+Day" alt="Typing Animation" />
