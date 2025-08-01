@@ -62,9 +62,6 @@
 <tr> 
   <td style="display: flex; align-items: center; gap: 10px;">
     <a href="https://zreechxnn.github.io/maze-game/">
-      <img src="https://raw.githubusercontent.com/Zreechxnn/maze-game/main/assets/icon.png" alt="Maze Game Icon" width="40" height="40" />
-    </a>
-    <a href="https://zreechxnn.github.io/maze-game/">
       <img src="https://img.shields.io/badge/🧩_Maze_Game-4F8CC9?style=for-the-badge&logo=github&logoColor=white" alt="Maze Game Badge" />
     </a>
   </td> 
