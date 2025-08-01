@@ -73,6 +73,42 @@ graph LR
 ```
   
 <table align="center"> <tr> <td width="50%"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=350&lines=GitHub+Statistics" alt="Stats Title" /> <img src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=4F8CC9&text_color=9f9f9f&include_all_commits=true&count_private=true" alt="GitHub Stats" /> </td> <td width="50%"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=350&lines=Top+Languages" alt="Languages Title" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=4F8CC9&text_color=9f9f9f&langs_count=6" alt="Top Languages" /> </td> </tr> <tr> <td colspan="2"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Development+Activity" alt="Activity Title" /> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zreechxnn&theme=github-dark&hide_border=true&area=true&custom_title=Development+Activity&radius=16&color=4F8CC9&bg_color=00000000" alt="Activity Graph" /> </td> </tr> </table>
-🔭 Current Projects
-<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Featured+Work" alt="Projects Title" /> </div><table align="center"> <tr> <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=150&lines=Project" alt="Project Header" /></th> <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=300&lines=Description" alt="Description Header" /></th> <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=250&lines=Technologies" alt="Tech Header" /></th> </tr> <tr> <td><a href="https://zreechxnn.github.io/maze-game/">🧩 Maze Game</a></td> <td>Pathfinding visualization with procedural generation</td> <td>C++, SDL, OpenGL</td> </tr> <tr> <td><a href="https://zreechxnn.github.io/calculator-SDL2/">🧮 Scientific Calculator</a></td> <td>Advanced calculator with graphing capabilities</td> <td>C++, SDL, Custom Math Parser</td> </tr> </table>
+
+---
+
+<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=CurentProject" alt="Projects Title" /> </div>
+<table align="center"> 
+  <tr> 
+    <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=150&lines=Project" alt="Project Header" /></th> 
+    <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=300&lines=Description" alt="Description Header" /></th> 
+    <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=250&lines=Technologies" alt="Tech Header" /></th> 
+  </tr> 
+  <tr> 
+    <td>
+      <a href="https://zreechxnn.github.io/maze-game/">
+        <img src="https://img.shields.io/badge/🧩_Maze_Game-4F8CC9?style=for-the-badge&logo=github&logoColor=white" alt="Maze Game" />
+      </a>
+    </td> 
+    <td>Pathfinding visualization with procedural generation</td> 
+    <td>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/SDL-8A2BE2?style=flat-square&logo=Simple%20DirectMedia%20Layer&logoColor=white" alt="SDL" />
+      <img src="https://img.shields.io/badge/emscripten-EFD81D?style=flat-square&logo=javascript&logoColor=black" alt="Emscripten" />
+    </td> 
+  </tr> 
+  <tr> 
+    <td>
+      <a href="https://github.com/Zreechxnn/rechan-cli">
+        <img src="https://img.shields.io/badge/rechan_CLI-41CD52?style=for-the-badge&logo=terminal&logoColor=white" alt="rechan-CLI" />
+      </a>
+    </td> 
+    <td>Qt-based CLI to scaffold, compile, and manage projects via JSON config</td> 
+    <td>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt" />
+      <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake" />
+    </td> 
+  </tr> 
+</table>
+
 <div align="center"> <a href="mailto:hoshikochan93@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/rechan-dinata-a80552278"> <img src="https://img.shields.io/badge/LinkedIn-Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/Zreechxnn"> <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </div><div align="center" style="margin-top:30px"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" /> <img alt="snake animation" src="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" /> </picture> </div><div align="center" style="margin-top:20px"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Crafting+performant+systems+beyond+conventional+boundaries;Secure+by+design,+efficient+by+implementation" alt="Motto" /> </div>
