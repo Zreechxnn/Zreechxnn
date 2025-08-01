@@ -52,7 +52,7 @@
 
 --- 
 
-<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=CurentProject" alt="Projects Title" /> </div>
+## Curent Project
 <table align="center"> 
   <tr> 
     <th><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=500&color=4F8CC9&center=true&vCenter=true&width=150&lines=Project" alt="Project Header" /></th> 
