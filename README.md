@@ -1,7 +1,7 @@
 # 💻 Rechan Dinata | Zreechxnn
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=800&color=4F8CC9&center=true&vCenter=true&width=700&lines=Learning+System+Development;Interested+in+Cryptography;Exploring+GUI+and+SDL;Still+Learning+Every+Day" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=750&color=4F8CC9&center=true&vCenter=true&width=700&lines=Learning+System+Development;Interested+in+Cryptography;Exploring+GUI+and+SDL;Still+Learning+Every+Day" alt="Typing Animation" />
 </div>
 
 ---
@@ -23,7 +23,7 @@
 ## 🛠️ Technical Expertise
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Core+Technologies;Security+%26+Cryptography;Development+Tools;IoT+%26+Embedded" alt="Expertise Categories" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1250&color=4F8CC9&center=true&vCenter=true&width=700&lines=Core+Technologies;Security+%26+Cryptography;Development+Tools;IoT+%26+Embedded" alt="Expertise Categories" />
 </div>
 
 <div align="center" style="margin-top:20px">
