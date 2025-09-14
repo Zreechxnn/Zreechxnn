@@ -1,5 +1,5 @@
 # 💻 Rechan Dinata | Zreechxnn
-<div align="center">
+<div align="center"> 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=4F8CC9&center=true&vCenter=true&width=700&lines=Writing+code+with+philosophical+depth;Designing+interfaces+that+respect+the+user;Breaking+systems+to+understand+them;Building+them+back,+stronger+and+simpler" alt="Typing Animation" /> 
 </div>
  
