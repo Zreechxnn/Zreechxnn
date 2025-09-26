@@ -52,8 +52,28 @@
 
 --- 
 
-<div align="center"> <a href="mailto:hoshikochan93@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/rechan-dinata-a80552278"> <img src="https://img.shields.io/badge/LinkedIn-Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/Zreechxnn"> <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </div><div align="center" style="margin-top:30px"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" /> <img alt="snake animation" src="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" /> </picture> </div>
-<div align="center" style="margin-top:20px"> <div align="center" style="margin-top:20px">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Crafting+performant+systems+beyond+conventional+boundaries;Secured+by+design,+efficient+by+implementation;Every+line+of+code+is+a+philosophical+statement;I+code+therefore+I+am" alt="Motto" />
+<div align="center">
+  <a href="mailto:hoshikochan93@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/rechan-dinata-a80552278">
+    <img src="https://img.shields.io/badge/LinkedIn-Network-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/recehndnt/">
+    <img src="https://img.shields.io/badge/Instagram-Profile-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
 </div>
- </div>
+
+<div align="center" style="margin-top:30px">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" />
+  </picture>
+</div>
+
+<div align="center" style="margin-top:20px">
+  <div align="center" style="margin-top:20px">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Crafting+performant+systems+beyond+conventional+boundaries;Secured+by+design,+efficient+by+implementation;Every+line+of+code+is+a+philosophical+statement;I+code+therefore+I+am" alt="Motto" />
+  </div>
+</div>
