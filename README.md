@@ -50,7 +50,8 @@
   
   <!-- IoT & Embedded -->
   <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/ESP-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
+  <img src="https://img.shields.io/badge/ESP32-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
+  <img src="https://img.shields.io/badge/ESP8266-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
 </div>
 
 --- 
