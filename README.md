@@ -20,13 +20,10 @@
 <br/>
 
 <div align="center"> 
-  <a href="https://github.com/zreechxnn">
-    <img src="https://github-readme-stats.vercel.app/api?username=zreechxnn&show_icons=true&hide_border=true&title_color=4F8CC9&icon_color=4F8CC9&text_color=9f9f9f&theme=transparent" height="160" alt="github stats"/>
-  </a>
-  <a href="https://github.com/zreechxnn">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&hide_border=true&title_color=4F8CC9&text_color=9f9f9f&theme=transparent" height="160" alt="top languages"/>
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=zreechxnn&show_icons=true&hide_border=true&title_color=4F8CC9&icon_color=4F8CC9&text_color=9f9f9f&bg_color=0d1117" height="150" alt="github stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&hide_border=true&title_color=4F8CC9&text_color=9f9f9f&bg_color=0d1117" height="150" alt="top languages" />
 </div>
+
 ## 🛠️ Technical Expertise
 
 <div align="center">
