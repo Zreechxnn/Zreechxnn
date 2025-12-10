@@ -17,11 +17,9 @@
   <img src="https://img.shields.io/badge/Specialty-Desktop_GUI-4F8CC9?style=flat&logoWidth=30" height="28" />
 </div>
 
-<br/>
-
 <div align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=zreechxnn&show_icons=true&hide_border=true&title_color=4F8CC9&icon_color=4F8CC9&text_color=9f9f9f&bg_color=0d1117" height="150" alt="github stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&hide_border=true&title_color=4F8CC9&text_color=9f9f9f&bg_color=0d1117" height="150" alt="top languages" />
+  <!-- <A+"/>  -->
+  <img height="180em" src="language top"/> 
 </div>
 
 ## 🛠️ Technical Expertise
@@ -32,21 +30,25 @@
 
 
 <div align="center" style="margin-top:20px">
+  <!-- Core Technologies -->
   <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/SDL-000000?logo=sdl&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   
+  <!-- Security & Cryptography -->
   <img src="https://img.shields.io/badge/OpenSSL-721412?logo=openssl&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/Cryptography-4F8CC9?style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/AES-4F8CC9?style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/RSA-4F8CC9?style=for-the-badge&logoWidth=30" height="40" />
   
+  <!-- Development Tools -->
   <img src="https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   
+  <!-- IoT & Embedded -->
   <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/ESP32-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
   <img src="https://img.shields.io/badge/ESP8266-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
