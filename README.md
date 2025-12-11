@@ -1,8 +1,7 @@
-# 💻 Rechan Dinata | Zreechxnn
-<div align="center">  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=4F8CC9&center=true&vCenter=true&width=700&lines=Writing+code+with+philosophical+depth;Designing+interfaces+that+respect+the+user;Breaking+systems+to+understand+them;Building+them+back,+stronger+and+simpler" alt="Typing Animation" />  
-</div> 
- 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=4F8CC9&center=true&vCenter=true&width=700&lines=Writing+code+with+philosophical+depth;Designing+interfaces+that+respect+the+user;Breaking+systems+to+understand+them;Building+them+back,+stronger+and+simpler" alt="Typing Animation" />
+</div>
+
 ---
 
 ## 👤 Profile
@@ -17,44 +16,37 @@
   <img src="https://img.shields.io/badge/Specialty-Desktop_GUI-4F8CC9?style=flat&logoWidth=30" height="28" />
 </div>
 
-<div align="center"> 
-  <!-- <A+"/>  -->
-  <img height="180em" src="language top"/> 
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 ## 🛠️ Technical Expertise
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Every+tool+is+an+extension+of+the+mind;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
 </div>
-
 
 <div align="center" style="margin-top:20px">
-  <!-- Core Technologies -->
-  <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/Java-007396?logo=openjdk&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/SDL-000000?logo=sdl&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
   
-  <!-- Security & Cryptography -->
-  <img src="https://img.shields.io/badge/OpenSSL-721412?logo=openssl&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/Cryptography-4F8CC9?style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/AES-4F8CC9?style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/RSA-4F8CC9?style=for-the-badge&logoWidth=30" height="40" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/SDL-000000?style=for-the-badge&logo=sdl&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
   
-  <!-- Development Tools -->
-  <img src="https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
+  <br/>
   
-  <!-- IoT & Embedded -->
-  <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/ESP32-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
-  <img src="https://img.shields.io/badge/ESP8266-000000?logo=espressif&logoColor=white&style=for-the-badge&logoWidth=30" height="40" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
 </div>
 
---- 
+---
 
 <div align="center">
   <a href="mailto:hoshikochan93@gmail.com">
