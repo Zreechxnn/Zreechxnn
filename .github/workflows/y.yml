@@ -1,1 +1,38 @@
+name: Animated Languages
 
+on:
+  # Update otomatis setiap hari
+  schedule:
+    - cron: "0 0 * * *"
+  # Bisa dijalankan manual
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Animated Languages
+        uses: lowlighter/metrics@latest
+        with:
+          # Token otomatis (tidak perlu setup ribet)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Simpan hasil di branch "output"
+          committer_branch: output
+          filename: languages-animated.svg
+          
+          # Hapus base stats, fokus hanya ke bahasa
+          base: ""
+          
+          # Konfigurasi Plugin Bahasa
+          plugin_languages: yes
+          plugin_languages_ignored: html, css # Opsional: sembunyikan bahasa markup
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage, lines
+          
+          # Tema (Sesuai permintaan Anda)
+          config_theme: tokyonight
+          config_padding: 0, 10 + 5%
