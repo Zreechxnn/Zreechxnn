@@ -34,23 +34,7 @@ void main() {
 <div align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" /> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" /> </div>
 
 ## 🛠️ Technical Stack
-C
 
-void active_projects() {
-    // Proyek Utama: RFID Lab Access System
-    char* hardware = "ESP8266 + MFRC522";
-    char* backend = ".NET (C#) + SignalR";
-    char* frontend = "Next.js + Tailwind CSS";
-    char* database = "PostgreSQL (Supabase)";
-    char* infrastructure = "Cloudflare + Vercel + Hugging Face";
-}
-
-void certifications() {
-    char* certs[] = {
-        "Gemini Certified University Student",
-        "Introduction to Information Security"
-    };
-}
 <div align="center" style="margin-top:20px"> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /> <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white" /> </div>
