@@ -10,6 +10,30 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Believer+in+simple+design+for+complex+ideas;Cryptography+as+poetry+in+code;Interfaces+should+whisper,+not+scream;Learning+as+a+daily+ritual" alt="Profile Quote" />
 </div>
 
+```c
+#include <stdio.h>
+
+/**
+ * @struct Developer
+ * @brief Profile structure representing my development philosophy
+ */
+struct Developer {
+    char* focus;      // "Systems Programming"
+    char* specialty;  // "Desktop GUI"
+    char* philosophy; // "Simple design for complex ideas"
+};
+
+/**
+ * @fn current_ritual()
+ * @brief My daily development practices
+ */
+void current_ritual() {
+    char* activity = "📚 Learning as a daily ritual";
+    char* cryptography = "🔐 Poetry in code";
+    char* mindset = "💭 Code with intention, build with purpose";
+}
+```
+
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=flat&color=4F8CC9&logoWidth=30" height="28" />
   <img src="https://img.shields.io/badge/Focus-Systems_Programming-4F8CC9?style=flat&logoWidth=30" height="28" />
