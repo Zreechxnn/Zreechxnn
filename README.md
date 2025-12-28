@@ -1,6 +1,6 @@
 <div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=4F8CC9&center=true&vCenter=true&width=700&lines=Writing+code+with+philosophical+depth;Designing+interfaces+that+respect+the+user;Breaking+systems+to+understand+them;Building+them+back,+stronger+and+simpler" alt="Typing Animation" /> </div>
 
-##👤 Profile
+## 👤 Profile
 
 #include <stdio.h>
 
@@ -33,7 +33,7 @@ void main() {
 
 <div align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" /> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" /> </div>
 
-##🛠️ Technical Stack
+## 🛠️ Technical Stack
 C
 
 void active_projects() {
