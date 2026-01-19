@@ -41,9 +41,8 @@ void current_ritual() {
 </div>
 
 <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&theme=radical" alt="Top Langs" />
-  </a>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" /> 
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
 </div>
 
 ## 🛠️ Technical Expertise
