@@ -94,8 +94,8 @@ void current_ritual() {
   </picture>
 </div>
 
-<div align="center" style="margin-top:20px">
+<!-- <div align="center" style="margin-top:20px">
   <div align="center" style="margin-top:20px">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Crafting+performant+systems+beyond+conventional+boundaries;Secured+by+design,+efficient+by+implementation;Every+line+of+code+is+a+philosophical+statement;I+code+therefore+I+am" alt="Motto" />
   </div>
-</div>
+</div> -->
