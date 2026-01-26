@@ -1,4 +1,4 @@
-<div align="center"> 
+<!-- <div align="center"> 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=4F8CC9&center=true&vCenter=true&width=700&lines=Writing+code+with+philosophical+depth;Designing+interfaces+that+respect+the+user;Breaking+systems+to+understand+them;Building+them+back,+stronger+and+simpler" alt="Typing Animation" />
 </div>
 
@@ -38,20 +38,18 @@ void current_ritual() {
   <img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=flat&color=4F8CC9&logoWidth=30" height="28" />
   <img src="https://img.shields.io/badge/Focus-Systems_Programming-4F8CC9?style=flat&logoWidth=30" height="28" />
   <img src="https://img.shields.io/badge/Specialty-Desktop_GUI-4F8CC9?style=flat&logoWidth=30" height="28" />
-</div>
+</div> -->
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" /> 
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
 </div>
 
-## 🛠️ Technical Expertise
-
-<div align="center">
+<!-- <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
-</div>
+</div> -->
 
-<div align="center" style="margin-top:20px">
+<!-- <div align="center" style="margin-top:20px">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -69,7 +67,7 @@ void current_ritual() {
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
-</div>
+</div> -->
 
 ---
 
