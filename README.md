@@ -40,10 +40,10 @@ void current_ritual() {
   <img src="https://img.shields.io/badge/Specialty-Desktop_GUI-4F8CC9?style=flat&logoWidth=30" height="28" />
 </div> -->
 
-<div align="center">
+<!-- <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" /> 
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</div>
+</div> -->
 
 <!-- <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
