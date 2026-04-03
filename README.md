@@ -42,7 +42,7 @@ void current_ritual() {
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zreechxnn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" /> 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zreechxnn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=zreechxnn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </div>
 
 <div align="center">
