@@ -101,3 +101,6 @@ void current_ritual() {
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Crafting+performant+systems+beyond+conventional+boundaries;Secured+by+design,+efficient+by+implementation;Every+line+of+code+is+a+philosophical+statement;I+code+therefore+I+am" alt="Motto" />
   </div>
 </div>
+
+![Spotify Now Playing](https://spotify-playing-readme.vercel.app/callback?code=AQAQj4Ujxlg5CILP6GlfXX3YgUz6s1gPcp8RBp6XeamB_kiMaDsyNnTtFBGz3RTn4kCmGlVY5nc0A5a1Q3XNT-zYAyM7VPPGIHo7PsOeEopQyVx18XXe3RLwV5XJoDWnD0iQbu-2Eve--OZofrLFhgUZtKcLnQRXYmfgqqdKTy87a9bf5coCH8V-FxibuRn87pAlmkSqgGN8QlCP7KeOWbzUYzmvOjyvrnRtYMTlQwCvBdoJYTQOr2vIB6GINfuH9BQ_IcaObydyVpKuJB0)
+
