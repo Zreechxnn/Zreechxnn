@@ -102,5 +102,3 @@ void current_ritual() {
   </div>
 </div>
 
-![Spotify Now Playing](https://spotify-playing-readme.vercel.app/callback?code=AQAQj4Ujxlg5CILP6GlfXX3YgUz6s1gPcp8RBp6XeamB_kiMaDsyNnTtFBGz3RTn4kCmGlVY5nc0A5a1Q3XNT-zYAyM7VPPGIHo7PsOeEopQyVx18XXe3RLwV5XJoDWnD0iQbu-2Eve--OZofrLFhgUZtKcLnQRXYmfgqqdKTy87a9bf5coCH8V-FxibuRn87pAlmkSqgGN8QlCP7KeOWbzUYzmvOjyvrnRtYMTlQwCvBdoJYTQOr2vIB6GINfuH9BQ_IcaObydyVpKuJB0)
-
