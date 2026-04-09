@@ -100,5 +100,7 @@ void current_ritual() {
   </div>
 </div> -->
 <center>
+  
   [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false)](https://github.com/kittinan/spotify-github-profile)
+  
 </center>
