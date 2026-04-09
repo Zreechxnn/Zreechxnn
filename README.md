@@ -99,5 +99,6 @@ void current_ritual() {
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Crafting+performant+systems+beyond+conventional+boundaries;Secured+by+design,+efficient+by+implementation;Every+line+of+code+is+a+philosophical+statement;I+code+therefore+I+am" alt="Motto" />
   </div>
 </div> -->
-
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false)](https://github.com/kittinan/spotify-github-profile)
+<center>
+  [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false)](https://github.com/kittinan/spotify-github-profile)
+</center>
