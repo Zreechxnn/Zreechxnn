@@ -37,7 +37,7 @@ void current_ritual() {
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=flat&color=4F8CC9&logoWidth=30" height="28" />
   <img src="https://img.shields.io/badge/Focus-Systems_Programming-4F8CC9?style=flat&logoWidth=30" height="28" />
-  <img src="https://img.shields.io/badge/Specialty-Desktop_GUI-4F8CC9?style=flat&logoWidth=30" height="28" />
+  <img src="https://img.shields.io/badge/Specialty-BACKEND_DEV-4F8CC9?style=flat&logoWidth=30" height="28" />
 </div>
 
 <div align="center">
