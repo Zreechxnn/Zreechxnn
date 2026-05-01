@@ -104,3 +104,52 @@ void current_ritual() {
 
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&redirect=true)
+
+
+
+
+
+<div align="center"> 
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=4F8CC9&center=true&vCenter=true&width=700&lines=Writing+code+with+philosophical+depth;Designing+interfaces+that+respect+the+user;Breaking+systems+to+understand+them;Building+them+back,+stronger+and+simpler" alt="Typing Animation" />
+</div>
+
+> *“Believer in simple design for complex ideas. Cryptography as poetry in code. Interfaces should whisper, not scream. Learning as a daily ritual.”*
+
+---
+
+## 👤 Profile
+
+```c
+#include <stdio.h>
+
+/**
+ * @struct Developer
+ * @brief Profile structure representing my development philosophy
+ */
+struct Developer {
+    const char* focus;      // "Systems Programming"
+    const char* specialty;  // "Desktop GUI & Backend"
+    const char* philosophy; // "Simple design for complex ideas"
+};
+
+/**
+ * @fn current_ritual()
+ * @brief My daily development practices
+ */
+void current_ritual() {
+    printf("📚 Learning as a daily ritual\n");
+    printf("🔐 Cryptography: Poetry in code\n");
+    printf("💭 Code with intention, build with purpose\n");
+}
+<div align="center"> <img src="https://img.shields.io/badge/Status-Available_for_Projects-brightgreen?style=flat&color=4F8CC9&logoWidth=30" height="28" /> <img src="https://img.shields.io/badge/Focus-Systems_Programming-4F8CC9?style=flat&logoWidth=30" height="28" /> <img src="https://img.shields.io/badge/Specialty-BACKEND_DEV-4F8CC9?style=flat&logoWidth=30" height="28" /> </div><div align="center"> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&langs_count=8&theme=algolia" /> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=zreechxnn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="GitHub Stats" /> </div>
+🛠️ Tech Stack
+<div align="center" style="margin-top:20px"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" /> <img src="https://img.shields.io/badge/SDL-000000?style=for-the-badge&logo=sdl&logoColor=white" /> <img src="https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white" /> <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" /> <br/> <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" /> <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" /> <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white" /> </div>
+🚀 Proyek Unggulan
+Proyek	Deskripsi	Teknologi
+🔐 CipherVault	CLI encryption tool berbasis C dengan OpenSSL	C, OpenSSL, CMake
+🖥️ DeskController	GUI monitoring sistem ringan dengan SDL2	C++, SDL2, ImGui
+📡 ESP32 Sensor Mesh	Jaringan sensor IoT low‑power lewat ESP‑NOW	C++, ESP‑IDF, MQTT
+Ganti dengan repositori proyek aslimu – portofolio sejati lebih kuat dari sekadar kata-kata.
+
+<div align="center"> <a href="mailto:hoshikochan93@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/rechan-dinata-a80552278"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://www.instagram.com/recehndnt/"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> <a href="https://github.com/zreechxnn"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> </div><div align="center" style="margin-top:30px"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" /> <img alt="snake animation" src="https://raw.githubusercontent.com/zreechxnn/zreechxnn/output/snake.svg" /> </picture> </div>
+https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false
