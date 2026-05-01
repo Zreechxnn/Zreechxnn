@@ -103,6 +103,40 @@ void current_ritual() {
 </div>
 
 
+
+
+## 🛠️ Technical Expertise
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
+</div>
+
+<div align="center" style="margin-top:20px">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  
+  <br/>
+  
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/SDL-000000?style=for-the-badge&logo=sdl&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white" />
+
+  <br/>
+
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  
+  <br/>
+  
+  <img src="https://img.shields.io/badge/PlatformIO-F68212?style=for-the-badge&logo=platformio&logoColor=white" />
+  <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+</div>
+
+
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31chzdby3hn6jqywsnj24zk5rdym&redirect=true)
 
 
