@@ -4,7 +4,10 @@
  
 ---
 
-## 👤 Profile
+# _ __ ___  ___| |__    __ _ _ __
+| '__/ _ \/ __| '_ \ / _` | '_ \
+| | |  __/ (__| | | | (_| | | | |
+|_|  \___|\___|_| |_|\__,_|_| |_|
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4F8CC9&center=true&vCenter=true&width=700&lines=Believer+in+simple+design+for+complex+ideas;Cryptography+as+poetry+in+code;Interfaces+should+whisper,+not+scream;Learning+as+a+daily+ritual" alt="Profile Quote" />
