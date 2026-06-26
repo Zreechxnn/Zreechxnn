@@ -38,14 +38,15 @@ void current_ritual() {
   <img src="https://img.shields.io/badge/Specialty-BACKEND_DEV-4F8CC9?style=flat&logoWidth=30" height="28" />
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&langs_count=8&theme=algolia" /> 
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=zreechxnn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </div>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
-</div>
+</div> -->
+<figure><embed src="https://wakatime.com/share/@zreech/22c03657-a88a-430c-b7bc-c17f4db30bcd.svg"></embed></figure>
 
 <!-- <div align="center" style="margin-top:20px">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
