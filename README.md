@@ -46,7 +46,10 @@ void current_ritual() {
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=4F8CC9&center=true&vCenter=true&width=700&lines=I+trust+in+C%2B%2B,+debuggers+and+coffee;I+encrypt,+compile,+and+connect;Efficiency+is+my+language+of+choice" alt="Expertise Categories" />
 </div> -->
-<figure><embed src="https://wakatime.com/share/@zreech/22c03657-a88a-430c-b7bc-c17f4db30bcd.svg"></embed></figure>
+<div align="center">
+  <img src="https://wakatime.com/share/@zreech/22c03657-a88a-430c-b7bc-c17f4db30bcd.svg" alt="WakaTime Stats" />
+</div>
+
 
 <!-- <div align="center" style="margin-top:20px">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
