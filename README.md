@@ -42,7 +42,7 @@ void current_ritual() {
   <!-- <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=zreechxnn&layout=compact&langs_count=8&theme=algolia&count_private=true" />  -->
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=zreechxnn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <div align="center">
-  <img src="https://wakatime.com/share/@zreech/b43636b5-a098-4d80-9d4f-3c77af543d13.svg" alt="WakaTime Stats" width="550" />
+  <img src="https://wakatime.com/share/@zreech/d8b33b4d-0fd3-41d1-9efb-56496f6324a7.svg" alt="WakaTime Stats" width="400" />
   </div>
 </div>
 
