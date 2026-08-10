@@ -44,6 +44,11 @@ void current_ritual() {
   <img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=zreechxnn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <img style="max-height: 180px; width: auto;" src="https://wakatime.com/share/@zreech/d8b33b4d-0fd3-41d1-9efb-56496f6324a7.svg" alt="WakaTime Stats"/>
 </div>
+
+
+
+
+  
 </div>
 
 <!--
