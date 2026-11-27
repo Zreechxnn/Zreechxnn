@@ -68,6 +68,9 @@ void current_ritual() {
 
 ---
 
+<figure><embed src="https://wakatime.com/share/@zreech/7c1229fd-9141-49ef-a3ba-2ff96a07464f.svg"></embed></figure>
+
+---
 <div align="center">
   <a href="mailto:hoshikochan93@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
