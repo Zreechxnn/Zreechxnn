@@ -69,7 +69,7 @@ void current_ritual() {
 ---
 
 <div align="center">
-  <img src="https://wakatime.com/share/@zreech/7c1229fd-9141-49ef-a3ba-2ff96a07464f.svg" alt="Wakatime Stats" />
+  <img src="https://wakatime.com/share/@zreech/9ec8da0e-f398-4370-85e0-88192258c445.svg" alt="Wakatime Stats" />
 </div>
 
 ---
